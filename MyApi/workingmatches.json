@@ -1,0 +1,139 @@
+{
+    "data": [
+      {
+        "type": "matches",
+        "id": "103",
+        "attributes": {
+          "mat": 1,
+          "number": "104",
+          "phase": "R32",
+          "schedule": null,
+          "result": null,
+          "score": null,
+          "penalties": null,
+          "round": 0,
+          "roundTime": null
+        },
+        "relationships": {
+          "homeCompetitor": {
+            "data": {
+              "type": "competitors",
+              "id": "TPL-4124"
+            }
+          },
+          "awayCompetitor": {
+            "data": {
+              "type": "competitors",
+              "id": "TUN-1791"
+            }
+          },
+          "event": {
+            "data": {
+              "type": "events",
+              "id": "3b4ffc7c-0b14-48df-9116-1a1328627305"
+            }
+          },
+          "matchConfiguration": {
+            "data": {
+              "type": "match-configurations",
+              "id": "103_381561fc-5485-4b23-aefc-0762392d7313"
+            }
+          },
+          "refereeAssignment": {}
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "competitors",
+        "id": "TPL-4124",
+        "attributes": {
+          "competitorType": "A",
+          "printName": "SWEENEY Liam",
+          "printInitialName": "SWEENEY Liam",
+          "tvName": "SWEENEY Liam",
+          "tvInitialName": "L. SWEENEY",
+          "scoreboardName": "SWEENEY L.",
+          "rank": 38,
+          "seed": 25,
+          "country": "AUS"
+        }
+      },
+      {
+        "type": "competitors",
+        "id": "TUN-1791",
+        "attributes": {
+          "competitorType": "A",
+          "printName": "KATOUSI Firas",
+          "printInitialName": "KATOUSI Firas",
+          "tvName": "KATOUSI Firas",
+          "tvInitialName": "F. KATOUSI",
+          "scoreboardName": "KATOUSI F.",
+          "rank": 8,
+          "seed": 8,
+          "country": "TUN"
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "fb7d418b-79bc-4896-a643-634f50863067"
+            }
+          },
+          "event": {
+            "data": {
+              "type": "events",
+              "id": "3b4ffc7c-0b14-48df-9116-1a1328627305"
+            }
+          },
+          "participant": {
+            "data": {
+              "type": "participants",
+              "id": "TUN-1791"
+            }
+          }
+        }
+      },
+      {
+        "type": "match-configurations",
+        "id": "103_381561fc-5485-4b23-aefc-0762392d7313",
+        "attributes": {
+          "rules": "BESTOF3",
+          "rounds": 3,
+          "timing": {
+            "round": "2:00",
+            "rest": "1:00",
+            "injury": "1:00"
+          },
+          "thresholds": {
+            "body": 23,
+            "head": 1
+          },
+          "videoReplayQuota": {
+            "home": 1,
+            "away": 1
+          },
+          "goldenPoint": {
+            "enabled": false,
+            "time": "00:00"
+          },
+          "maxDifference": 12
+        }
+      },
+      {
+        "type": "events",
+        "id": "3b4ffc7c-0b14-48df-9116-1a1328627305",
+        "attributes": {
+          "discipline": "Taekwondo Kyorugi",
+          "division": "Seniors",
+          "gender": "MALE",
+          "name": "Men -80kg",
+          "weightCategory": "M -80kg",
+          "sportClass": null,
+          "category": null,
+          "role": "ATHLETE"
+        }
+      }
+    ]
+  }
+  
