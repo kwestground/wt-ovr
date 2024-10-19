@@ -1,0 +1,22 @@
+{
+    "matchNumber": "1-2",
+    "matchCategoryName": "NYBÖRJARE \/ HERR \/ -55 KG",
+    "matchCategoryGender": "MALE",
+    "matchSubCategoryName": "KIDS",
+    "roundNumber": 0,
+    "roundNumberStr": "0",
+    "tkStrikeSystemTimestamp": 1729337791023,
+    "tkStrikeSystemTimestampStr": "19\/10\/2024 13:36:31:023",
+    "roundTimestamp": 1729328520000,
+    "roundTimestampStr": "02:00.000",
+    "eventType": "BLUE_VIDEO_REQUEST",
+    "eventAddPoints": false,
+    "eventRemovePoints": false,
+    "bluePoints": 0,
+    "bluePenalties": 0,
+    "blueRoundWins": 0,
+    "redPoints": 0,
+    "redPenalties": 0,
+    "redRoundWins": 0,
+    "hitlevel": 0
+}

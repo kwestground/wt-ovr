@@ -1,0 +1,22 @@
+{
+    "matchNumber": "101",
+    "matchCategoryName": "M -59KG",
+    "matchCategoryGender": "MALE",
+    "matchSubCategoryName": "JUNIORS",
+    "roundNumber": 1,
+    "roundNumberStr": "1",
+    "tkStrikeSystemTimestamp": 1729338268847,
+    "tkStrikeSystemTimestampStr": "19\/10\/2024 13:44:28:847",
+    "roundTimestamp": 1729335712774,
+    "roundTimestampStr": "01:52.774",
+    "eventType": "BLUE_BODY_POINT",
+    "eventAddPoints": true,
+    "eventRemovePoints": false,
+    "bluePoints": 2,
+    "bluePenalties": 0,
+    "blueRoundWins": 0,
+    "redPoints": 0,
+    "redPenalties": 0,
+    "redRoundWins": 0,
+    "hitlevel": 0
+}

@@ -1,5 +1,6 @@
 using JsonApiDotNetCore.Configuration;
 using Microsoft.EntityFrameworkCore;
+using MyApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,9 +36,14 @@ app.MapGet("/matchess", () => {
     return jsonFromFile;
 });
 
+
+app.MapGet("/events-listener/ping", () => "Hell yeah, it's working!");
+
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
+
+app.UseRtBroadcastServer();
 
 
 
@@ -63,6 +69,8 @@ public class RequestLoggingMiddleware
             context.Request.Path,
             context.Request.QueryString,
             context.Connection.RemoteIpAddress);
+
+        _logger.LogInformation("Payload: {payload}", await new StreamReader(context.Request.Body).ReadToEndAsync());
 
         // Kalla nästa middleware i kedjan
         await _next(context);

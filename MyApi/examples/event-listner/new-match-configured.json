@@ -1,0 +1,44 @@
+POST /events-listener/new-match-configured
+{
+    "mat": 1,
+    "matchNumber": "101",
+    "phase": "Final",
+    "category": {
+        "name": "M -59KG",
+        "gender": "MALE",
+        "subCategory": "JUNIORS",
+        "bodyLevel": 18,
+        "headLevel": 5
+    },
+    "blueAthlete": {
+        "scoreboardName": "Blå",
+        "flagAbbreviation": "",
+        "rank": 0,
+        "seed": 0
+    },
+    "blueAthleteVideoQuota": 0,
+    "redAthlete": {
+        "scoreboardName": "Röd",
+        "flagAbbreviation": "",
+        "rank": 0,
+        "seed": 0
+    },
+    "redAthleteVideoQuota": 0,
+    "roundsConfig": {
+        "rounds": 3,
+        "roundTimeMinutes": 2,
+        "roundTimeSeconds": 0,
+        "kyeShiTimeMinutes": 1,
+        "kyeShiTimeSeconds": 0,
+        "restTimeMinutes": 1,
+        "restTimeSeconds": 0,
+        "goldenPointEnabled": false,
+        "goldenPointTimeMinutes": 1,
+        "goldenPointTimeSeconds": 0
+    },
+    "differencialScore": 12,
+    "maxAllowedGamJeoms": 5,
+    "matchVictoryCriteria": "BESTOF3",
+    "wtCompetitionDataProtocol": false,
+    "paraTkdMatch": false
+}
