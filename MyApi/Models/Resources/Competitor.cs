@@ -44,29 +44,7 @@ public class Competitor : Identifiable<string>
     [HasOne]
     public Participant Participant { get; set; }
 
-    // Default constructor
-    public Competitor() { }
-
-    // Parameterized constructor
-    public Competitor(string id, string competitorType, string printName, string printInitialName, string tvName,
-                      string tvInitialName, string scoreboardName, int? rank, int? seed, string country,
-                      HashSet<Match> matches, Organization organization, Event eventEntity, Participant participant)
-    {
-        Id = id;
-        CompetitorType = competitorType;
-        PrintName = printName;
-        PrintInitialName = printInitialName;
-        TvName = tvName;
-        TvInitialName = tvInitialName;
-        ScoreboardName = scoreboardName;
-        Rank = rank;
-        Seed = seed;
-        Country = country;
-        Matches = matches;
-        Organization = organization;
-        Event = eventEntity;
-        Participant = participant;
-    }
+    public string ParticipantId { get; set; }
 
     public override string ToString()
     {

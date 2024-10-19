@@ -31,8 +31,7 @@ public class AppDbContext : DbContext
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        
+    {        
         modelBuilder.Entity<Match>()
             .HasOne(m => m.HomeCompetitor)
             .WithMany()
@@ -99,5 +98,86 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<MatchConfiguration>()
             .Navigation(e => e.VideoReplayQuota)
             .AutoInclude();
+
+        modelBuilder.Entity<Competitor>()
+            .HasOne(e => e.Participant);
+
+        modelBuilder.Entity<Competitor>()
+            .Navigation(e => e.Participant)
+            .AutoInclude();
+
+        Seed(modelBuilder);
+    }
+
+    private void Seed(ModelBuilder modelBuilder)
+    {
+        
+        modelBuilder.Entity<Competitor>().HasData(new Competitor
+        {
+            Id = "SWE-1001",
+            CompetitorType = "A",
+            ScoreboardName = "K. Westgrund (SB)",
+            TvName = "K. WEST (TV)",
+            PrintName  = "Kenny Westermark (PRINT)",
+            PrintInitialName = "KW",
+            Country = "SWE"
+        }, new Competitor
+        {
+            Id = "SWE-1002",
+            CompetitorType = "A",
+            ScoreboardName = "A. Boström (SB)",
+            TvName = "A. BOST (TV)",
+            PrintName  = "Andreas Boström (PRINT)",
+            PrintInitialName = "AB",
+            Country = "SWE"
+        });
+
+        modelBuilder.Entity<Timing>().HasData(new Timing
+        {
+            Id = 1,
+            Round = "2:00",
+            Rest = "1:00",
+            Injury = "1:00"
+        });
+
+        modelBuilder.Entity<Thresholds>().HasData(new Thresholds
+        {
+            Id = 1,
+            Body = 10,
+            Head = 0
+        });
+
+        modelBuilder.Entity<MatchConfiguration>().HasData(new MatchConfiguration
+        {
+            Id = "M1",
+            Rules = Models.Constants.Rules.BestOf3,
+            Rounds = 3,
+            TimingId = 1,
+            MaxDifference = 12
+        });
+        
+        modelBuilder.Entity<Event>().HasData(new Event
+        {
+            Id = "E1",
+            Discipline = "Taekwondo Kyorugi",
+            Division = "Seniors",
+            Gender = Models.Constants.Gender.Male,
+            Name = "Male -80 kg",
+            WeightCategory = "M -80 kg",
+            Role = Models.Constants.Role.Athlete
+        });
+
+
+        modelBuilder.Entity<Match>().HasData(new Match
+        {
+            Id = "1",
+            Mat = 1,
+            Number = "1-1",
+            Phase = Models.Constants.Phase.F,
+            HomeCompetitorId = "SWE-1001",
+            AwayCompetitorId = "SWE-1002",
+            MatchConfigurationId = "M1",
+            EventId = "E1"
+        });
     }
 }
