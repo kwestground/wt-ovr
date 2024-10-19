@@ -14,6 +14,8 @@ public class MatchConfiguration : Identifiable<string>
     [Attr]
     public Timing Timing { get; set; }
 
+    public int TimingId { get; set; }
+
     [Attr]
     public Thresholds Thresholds { get; set; }
 

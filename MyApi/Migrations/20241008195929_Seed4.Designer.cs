@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MyApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241008195929_Seed4")]
+    partial class Seed4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,7 +81,6 @@ namespace MyApi.Migrations
                             Id = "SWE-1001",
                             CompetitorType = "A",
                             Country = "SWE",
-                            PrintInitialName = "KW",
                             PrintName = "Kenny Westermark (PRINT)",
                             ScoreboardName = "K. Westgrund (SB)",
                             TvName = "K. WEST (TV)"
@@ -88,7 +90,6 @@ namespace MyApi.Migrations
                             Id = "SWE-1002",
                             CompetitorType = "A",
                             Country = "SWE",
-                            PrintInitialName = "AB",
                             PrintName = "Andreas Boström (PRINT)",
                             ScoreboardName = "A. Boström (SB)",
                             TvName = "A. BOST (TV)"
@@ -249,7 +250,6 @@ namespace MyApi.Migrations
                         {
                             Id = "1",
                             AwayCompetitorId = "SWE-1002",
-                            EventId = "E1",
                             HomeCompetitorId = "SWE-1001",
                             Mat = 1,
                             MatchConfigurationId = "M1",

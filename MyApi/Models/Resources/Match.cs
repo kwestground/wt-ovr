@@ -62,6 +62,9 @@ public class Match : Identifiable<string>
     [HasOne]
     public MatchConfiguration MatchConfiguration { get; set; }
 
+    public string MatchConfigurationId { get; set; }
+    public string EventId { get; set; }
+
     public override string ToString()
     {
         return $"Match{{Id='{Id}', Status='{Status}', Mat={Mat}, Number='{Number}', Phase={(Phase != null ? Phase.ToString() : "null")}, Schedule={(Schedule != null ? Schedule.ToString() : "null")}, Result={(Result != null ? Result.ToString() : "null")}, Score={(Score != null ? Score.ToString() : "null")}, Penalties={(Penalties != null ? Penalties.ToString() : "null")}, Round={Round}, RoundTime='{RoundTime}', HomeCompetitor={(HomeCompetitor != null ? HomeCompetitor.ToString() : "null")}, AwayCompetitor={(AwayCompetitor != null ? AwayCompetitor.ToString() : "null")}, Session={(Session != null ? Session.ToString() : "null")}, Event={(Event != null ? Event.ToString() : "null")}, RefereeAssignment={(RefereeAssignment != null ? RefereeAssignment.ToString() : "null")}, Results={Results}, MatchConfiguration={(MatchConfiguration != null ? MatchConfiguration.ToString() : "null")}}}";

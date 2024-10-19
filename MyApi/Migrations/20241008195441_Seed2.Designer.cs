@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MyApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241008195441_Seed2")]
+    partial class Seed2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,7 +81,6 @@ namespace MyApi.Migrations
                             Id = "SWE-1001",
                             CompetitorType = "A",
                             Country = "SWE",
-                            PrintInitialName = "KW",
                             PrintName = "Kenny Westermark (PRINT)",
                             ScoreboardName = "K. Westgrund (SB)",
                             TvName = "K. WEST (TV)"
@@ -88,7 +90,6 @@ namespace MyApi.Migrations
                             Id = "SWE-1002",
                             CompetitorType = "A",
                             Country = "SWE",
-                            PrintInitialName = "AB",
                             PrintName = "Andreas Boström (PRINT)",
                             ScoreboardName = "A. Boström (SB)",
                             TvName = "A. BOST (TV)"
@@ -127,18 +128,6 @@ namespace MyApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Events");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "E1",
-                            Discipline = "Taekwondo Kyorugi",
-                            Division = "Seniors",
-                            Gender = 1,
-                            Name = "Male -80 kg",
-                            Role = 0,
-                            WeightCategory = "M -80 kg"
-                        });
                 });
 
             modelBuilder.Entity("Models.GoldenPoint", b =>
@@ -249,10 +238,8 @@ namespace MyApi.Migrations
                         {
                             Id = "1",
                             AwayCompetitorId = "SWE-1002",
-                            EventId = "E1",
                             HomeCompetitorId = "SWE-1001",
                             Mat = 1,
-                            MatchConfigurationId = "M1",
                             Number = "1-1",
                             Phase = 7
                         });
@@ -354,16 +341,6 @@ namespace MyApi.Migrations
                     b.HasIndex("VideoReplayQuotaId");
 
                     b.ToTable("MatchConfigurations");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "M1",
-                            MaxDifference = 12,
-                            Rounds = 3,
-                            Rules = 1,
-                            TimingId = 1
-                        });
                 });
 
             modelBuilder.Entity("Models.MatchInternalResult", b =>
@@ -691,15 +668,6 @@ namespace MyApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Timing");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Injury = "1:00",
-                            Rest = "1:00",
-                            Round = "2:00"
-                        });
                 });
 
             modelBuilder.Entity("Models.Competitor", b =>

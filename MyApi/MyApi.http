@@ -7,6 +7,8 @@ GET {{MyApi_HostAddress}}/matches/
 GET {{MyApi_HostAddress}}/api/matches/?filter[status]=available&include=homeCompetitor%2CawayCompetitor%2CmatchConfiguration%2CrefereeAssignment%2Cevent&filter[mat]=0
 ###
 
-GET {{MyApi_HostAddress}}/matches/?filter[status]=available&include=homeCompetitor%2CawayCompetitor%2CmatchConfiguration%2CrefereeAssignment%2Cevent&filter[mat]=0
+GET {{MyApi_HostAddress}}/matches/?filter[status]=available&include=homeCompetitor%2CawayCompetitor%2CmatchConfiguration%2CrefereeAssignment%2Cevent&filter[mat]=1
 
 ###
+
+GET {{MyApi_HostAddress}}/matches?filter[status]=available&include=homeCompetitor%2ChomeCompetitor.participant%2CawayCompetitor%2CawayCompetitor.participant%2CmatchConfiguration%2CrefereeAssignment%2Cevent&filter[mat]=1
