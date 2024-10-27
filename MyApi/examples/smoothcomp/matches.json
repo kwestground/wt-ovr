@@ -1,0 +1,4806 @@
+[
+    {
+        "id": 666182,
+        "bracket_id": 99796,
+        "name": "Match",
+        "group": "Boys \/ White \/ 6-7 years \/ -28 kg",
+        "round": 1,
+        "state": "finished",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104311
+        ],
+        "mat_match_nr": "A-1",
+        "estimated_start": "17:30",
+        "winnerFromBracket": null,
+        "time_passed": "00:04",
+        "wonBy": "final_score",
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Randy Burton",
+                "country": "BR",
+                "event_registration_id": 3117407,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Cary Walters",
+                "country": "AE",
+                "event_registration_id": 3117129,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": true,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663847,
+        "bracket_id": 99202,
+        "name": "Eighth-finals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-2",
+        "estimated_start": "09:00",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Robert Sims",
+                "country": "FI",
+                "event_registration_id": 3117418,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Marco Poole",
+                "country": "US",
+                "event_registration_id": 3117393,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663848,
+        "bracket_id": 99202,
+        "name": "Eighth-finals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-3",
+        "estimated_start": "09:01",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Lawrence Becker",
+                "country": "JP",
+                "event_registration_id": 3117363,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Maurice Fitzgerald",
+                "country": "BR",
+                "event_registration_id": 3117467,
+                "club": "Brasilia",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663849,
+        "bracket_id": 99202,
+        "name": "Eighth-finals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 4,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-4",
+        "estimated_start": "09:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Darryl Davis",
+                "country": "MX",
+                "event_registration_id": 3117475,
+                "club": "Ottawa",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dionne Knight",
+                "country": "SE",
+                "event_registration_id": 3116688,
+                "club": "Gbg MMA & BJJ IF",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663850,
+        "bracket_id": 99202,
+        "name": "Eighth-finals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 5,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-5",
+        "estimated_start": "09:03",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Evelyn Bowen",
+                "country": "BR",
+                "event_registration_id": 3117430,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Allan White",
+                "country": "UZ",
+                "event_registration_id": 3116743,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663851,
+        "bracket_id": 99202,
+        "name": "Eighth-finals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 6,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-6",
+        "estimated_start": "09:04",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Cornelius Francis",
+                "country": "EG",
+                "event_registration_id": 3117445,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Roman Newton",
+                "country": "MA",
+                "event_registration_id": 3117261,
+                "club": "10th planet Jiu Jitsu",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663852,
+        "bracket_id": 99202,
+        "name": "Eighth-finals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 7,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-7",
+        "estimated_start": "09:05",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Devin Montanari",
+                "country": "US",
+                "event_registration_id": 3116814,
+                "club": "Soulcraft BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Ryan Hopkins",
+                "country": "SE",
+                "event_registration_id": 3116783,
+                "club": "Frontline",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663854,
+        "bracket_id": 99202,
+        "name": "Quarterfinals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 2,
+        "state": "unseeded",
+        "match_nr": 9,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-8",
+        "estimated_start": "09:06",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Evan Salazar",
+                "country": "AE",
+                "event_registration_id": 3116750,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "tbd",
+                "name": "Winner from A-2",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 663855,
+        "bracket_id": 99202,
+        "name": "Quarterfinals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 2,
+        "state": "unseeded",
+        "match_nr": 10,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-9",
+        "estimated_start": "09:07",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Winner from A-3",
+                "isWinner": false
+            },
+            {
+                "type": "tbd",
+                "name": "Winner from A-4",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 663856,
+        "bracket_id": 99202,
+        "name": "Quarterfinals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 2,
+        "state": "unseeded",
+        "match_nr": 11,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-10",
+        "estimated_start": "09:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Winner from A-5",
+                "isWinner": false
+            },
+            {
+                "type": "tbd",
+                "name": "Winner from A-6",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 663857,
+        "bracket_id": 99202,
+        "name": "Quarterfinals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 2,
+        "state": "unseeded",
+        "match_nr": 12,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-11",
+        "estimated_start": "09:09",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Winner from A-7",
+                "isWinner": false
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Austin Stevens",
+                "country": "JP",
+                "event_registration_id": 3117435,
+                "club": "Paraestra Tokyo Test",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663858,
+        "bracket_id": 99202,
+        "name": "Semifinals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 3,
+        "state": "unseeded",
+        "match_nr": 13,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-12",
+        "estimated_start": "09:10",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Winner from A-8",
+                "isWinner": false
+            },
+            {
+                "type": "tbd",
+                "name": "Winner from A-9",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 663859,
+        "bracket_id": 99202,
+        "name": "Semifinals",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 3,
+        "state": "unseeded",
+        "match_nr": 14,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-13",
+        "estimated_start": "09:11",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Winner from A-10",
+                "isWinner": false
+            },
+            {
+                "type": "tbd",
+                "name": "Winner from A-11",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 665127,
+        "bracket_id": 99423,
+        "name": "Match 1\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-14",
+        "estimated_start": "09:12",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rosemary Christensen",
+                "country": "AE",
+                "event_registration_id": 3116653,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Danny Hanson",
+                "country": "BR",
+                "event_registration_id": 3117270,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663860,
+        "bracket_id": 99202,
+        "name": "Bronze match",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 4,
+        "state": "unseeded",
+        "match_nr": 15,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-15",
+        "estimated_start": "09:18",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Loser from A-12",
+                "isWinner": false
+            },
+            {
+                "type": "tbd",
+                "name": "Loser from A-13",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 665128,
+        "bracket_id": 99423,
+        "name": "Match 2\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-16",
+        "estimated_start": "09:19",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dwayne Santos",
+                "country": "LT",
+                "event_registration_id": 3116965,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Lionel Davis",
+                "country": "CN",
+                "event_registration_id": 3117188,
+                "club": "Beijing",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 663861,
+        "bracket_id": 99202,
+        "name": "Final",
+        "group": "Juvenile girls \/ Blue \/ -60,5 kg (Middle)",
+        "round": 4,
+        "state": "unseeded",
+        "match_nr": 16,
+        "schedule_block_id": [
+            103708
+        ],
+        "mat_match_nr": "A-17",
+        "estimated_start": "09:25",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "tbd",
+                "name": "Winner from A-12",
+                "isWinner": false
+            },
+            {
+                "type": "tbd",
+                "name": "Winner from A-13",
+                "isWinner": false
+            }
+        ]
+    },
+    {
+        "id": 665129,
+        "bracket_id": 99423,
+        "name": "Match 3\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-18",
+        "estimated_start": "09:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "FirstName196 LastName196",
+                "country": "CA",
+                "event_registration_id": 3117581,
+                "club": "Club D",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Daryl Martinez",
+                "country": "PE",
+                "event_registration_id": 3116614,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665130,
+        "bracket_id": 99423,
+        "name": "Match 4\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 4,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-19",
+        "estimated_start": "09:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Danny Hanson",
+                "country": "BR",
+                "event_registration_id": 3117270,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dwayne Santos",
+                "country": "LT",
+                "event_registration_id": 3116965,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665131,
+        "bracket_id": 99423,
+        "name": "Match 5\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 5,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-20",
+        "estimated_start": "09:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Lionel Davis",
+                "country": "CN",
+                "event_registration_id": 3117188,
+                "club": "Beijing",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "FirstName196 LastName196",
+                "country": "CA",
+                "event_registration_id": 3117581,
+                "club": "Club D",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665132,
+        "bracket_id": 99423,
+        "name": "Match 6\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 6,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-21",
+        "estimated_start": "09:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Daryl Martinez",
+                "country": "PE",
+                "event_registration_id": 3116614,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sammy Holloway",
+                "country": "PH",
+                "event_registration_id": 3117463,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665133,
+        "bracket_id": 99423,
+        "name": "Match 7\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 7,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-22",
+        "estimated_start": "09:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Salvatore Harmon",
+                "country": "US",
+                "event_registration_id": 3116731,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "David Mason",
+                "country": "JP",
+                "event_registration_id": 3117508,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665134,
+        "bracket_id": 99423,
+        "name": "Match 8\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 8,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-23",
+        "estimated_start": "09:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Clifford Howell",
+                "country": "BR",
+                "event_registration_id": 3116984,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rex Carr",
+                "country": "JP",
+                "event_registration_id": 3117313,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665135,
+        "bracket_id": 99423,
+        "name": "Match 9\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 9,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-24",
+        "estimated_start": "10:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sammy Holloway",
+                "country": "PH",
+                "event_registration_id": 3117463,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Salvatore Harmon",
+                "country": "US",
+                "event_registration_id": 3116731,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665136,
+        "bracket_id": 99423,
+        "name": "Match 10\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 10,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-25",
+        "estimated_start": "10:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "David Mason",
+                "country": "JP",
+                "event_registration_id": 3117508,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Clifford Howell",
+                "country": "BR",
+                "event_registration_id": 3116984,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665137,
+        "bracket_id": 99423,
+        "name": "Match 11\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 11,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-26",
+        "estimated_start": "10:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rex Carr",
+                "country": "JP",
+                "event_registration_id": 3117313,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Woodrow Patton",
+                "country": "CN",
+                "event_registration_id": 3117095,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665138,
+        "bracket_id": 99423,
+        "name": "Match 12\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 12,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-27",
+        "estimated_start": "10:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "James Lee",
+                "country": "GB",
+                "event_registration_id": 3116871,
+                "club": "Foundation School of Martial Arts",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Benjamin Mendoza",
+                "country": "US",
+                "event_registration_id": 3116637,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665139,
+        "bracket_id": 99423,
+        "name": "Match 13\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 13,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-28",
+        "estimated_start": "10:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chun Kit Leung",
+                "country": "HK",
+                "event_registration_id": 3117401,
+                "club": "Kylin BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kit Perry",
+                "country": "SE",
+                "event_registration_id": 3117460,
+                "club": "F\u00f6reningen Hilti Fightcenter Uppsala",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665140,
+        "bracket_id": 99423,
+        "name": "Match 14\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 14,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-29",
+        "estimated_start": "10:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Woodrow Patton",
+                "country": "CN",
+                "event_registration_id": 3117095,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "James Lee",
+                "country": "GB",
+                "event_registration_id": 3116871,
+                "club": "Foundation School of Martial Arts",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665141,
+        "bracket_id": 99423,
+        "name": "Match 15\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 15,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-30",
+        "estimated_start": "10:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Benjamin Mendoza",
+                "country": "US",
+                "event_registration_id": 3116637,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chun Kit Leung",
+                "country": "HK",
+                "event_registration_id": 3117401,
+                "club": "Kylin BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665142,
+        "bracket_id": 99423,
+        "name": "Match 16\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 16,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-31",
+        "estimated_start": "10:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kit Perry",
+                "country": "SE",
+                "event_registration_id": 3117460,
+                "club": "F\u00f6reningen Hilti Fightcenter Uppsala",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Toby Singleton",
+                "country": "CN",
+                "event_registration_id": 3116642,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665143,
+        "bracket_id": 99423,
+        "name": "Match 17\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 17,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-32",
+        "estimated_start": "10:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rosemary Christensen",
+                "country": "AE",
+                "event_registration_id": 3116653,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Edwin Santiago",
+                "country": "JP",
+                "event_registration_id": 3117330,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665144,
+        "bracket_id": 99423,
+        "name": "Match 18\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 18,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-33",
+        "estimated_start": "10:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Danny Hanson",
+                "country": "BR",
+                "event_registration_id": 3117270,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Lionel Davis",
+                "country": "CN",
+                "event_registration_id": 3117188,
+                "club": "Beijing",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665145,
+        "bracket_id": 99423,
+        "name": "Match 19\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 19,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-34",
+        "estimated_start": "11:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Toby Singleton",
+                "country": "CN",
+                "event_registration_id": 3116642,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Edwin Santiago",
+                "country": "JP",
+                "event_registration_id": 3117330,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665146,
+        "bracket_id": 99423,
+        "name": "Match 20\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 20,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-35",
+        "estimated_start": "11:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rosemary Christensen",
+                "country": "AE",
+                "event_registration_id": 3116653,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dwayne Santos",
+                "country": "LT",
+                "event_registration_id": 3116965,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665147,
+        "bracket_id": 99423,
+        "name": "Match 21\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 21,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-36",
+        "estimated_start": "11:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Lionel Davis",
+                "country": "CN",
+                "event_registration_id": 3117188,
+                "club": "Beijing",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Daryl Martinez",
+                "country": "PE",
+                "event_registration_id": 3116614,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665148,
+        "bracket_id": 99423,
+        "name": "Match 22\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 22,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-37",
+        "estimated_start": "11:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dwayne Santos",
+                "country": "LT",
+                "event_registration_id": 3116965,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "FirstName196 LastName196",
+                "country": "CA",
+                "event_registration_id": 3117581,
+                "club": "Club D",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665149,
+        "bracket_id": 99423,
+        "name": "Match 23\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 23,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-38",
+        "estimated_start": "11:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Daryl Martinez",
+                "country": "PE",
+                "event_registration_id": 3116614,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Salvatore Harmon",
+                "country": "US",
+                "event_registration_id": 3116731,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665150,
+        "bracket_id": 99423,
+        "name": "Match 24\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 24,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-39",
+        "estimated_start": "11:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "FirstName196 LastName196",
+                "country": "CA",
+                "event_registration_id": 3117581,
+                "club": "Club D",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sammy Holloway",
+                "country": "PH",
+                "event_registration_id": 3117463,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665151,
+        "bracket_id": 99423,
+        "name": "Match 25\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 25,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-40",
+        "estimated_start": "11:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Salvatore Harmon",
+                "country": "US",
+                "event_registration_id": 3116731,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Clifford Howell",
+                "country": "BR",
+                "event_registration_id": 3116984,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665152,
+        "bracket_id": 99423,
+        "name": "Match 26\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 26,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-41",
+        "estimated_start": "11:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sammy Holloway",
+                "country": "PH",
+                "event_registration_id": 3117463,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "David Mason",
+                "country": "JP",
+                "event_registration_id": 3117508,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665153,
+        "bracket_id": 99423,
+        "name": "Match 27\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 27,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-42",
+        "estimated_start": "11:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Clifford Howell",
+                "country": "BR",
+                "event_registration_id": 3116984,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Woodrow Patton",
+                "country": "CN",
+                "event_registration_id": 3117095,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665154,
+        "bracket_id": 99423,
+        "name": "Match 28\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 28,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-43",
+        "estimated_start": "11:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "David Mason",
+                "country": "JP",
+                "event_registration_id": 3117508,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rex Carr",
+                "country": "JP",
+                "event_registration_id": 3117313,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665155,
+        "bracket_id": 99423,
+        "name": "Match 29\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 29,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-44",
+        "estimated_start": "12:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Woodrow Patton",
+                "country": "CN",
+                "event_registration_id": 3117095,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Benjamin Mendoza",
+                "country": "US",
+                "event_registration_id": 3116637,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665156,
+        "bracket_id": 99423,
+        "name": "Match 30\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 30,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-45",
+        "estimated_start": "12:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rex Carr",
+                "country": "JP",
+                "event_registration_id": 3117313,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "James Lee",
+                "country": "GB",
+                "event_registration_id": 3116871,
+                "club": "Foundation School of Martial Arts",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665157,
+        "bracket_id": 99423,
+        "name": "Match 31\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 31,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-46",
+        "estimated_start": "12:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Benjamin Mendoza",
+                "country": "US",
+                "event_registration_id": 3116637,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kit Perry",
+                "country": "SE",
+                "event_registration_id": 3117460,
+                "club": "F\u00f6reningen Hilti Fightcenter Uppsala",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665158,
+        "bracket_id": 99423,
+        "name": "Match 32\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 32,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-47",
+        "estimated_start": "12:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "James Lee",
+                "country": "GB",
+                "event_registration_id": 3116871,
+                "club": "Foundation School of Martial Arts",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chun Kit Leung",
+                "country": "HK",
+                "event_registration_id": 3117401,
+                "club": "Kylin BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665159,
+        "bracket_id": 99423,
+        "name": "Match 33\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 33,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-48",
+        "estimated_start": "12:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kit Perry",
+                "country": "SE",
+                "event_registration_id": 3117460,
+                "club": "F\u00f6reningen Hilti Fightcenter Uppsala",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Edwin Santiago",
+                "country": "JP",
+                "event_registration_id": 3117330,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665160,
+        "bracket_id": 99423,
+        "name": "Match 34\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 34,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-49",
+        "estimated_start": "12:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chun Kit Leung",
+                "country": "HK",
+                "event_registration_id": 3117401,
+                "club": "Kylin BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Toby Singleton",
+                "country": "CN",
+                "event_registration_id": 3116642,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665161,
+        "bracket_id": 99423,
+        "name": "Match 35\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 35,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-50",
+        "estimated_start": "12:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Danny Hanson",
+                "country": "BR",
+                "event_registration_id": 3117270,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Edwin Santiago",
+                "country": "JP",
+                "event_registration_id": 3117330,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665162,
+        "bracket_id": 99423,
+        "name": "Match 36\/36",
+        "group": "Absolute Men \/ Adult (18+) \/ Purple",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 36,
+        "schedule_block_id": [
+            103936
+        ],
+        "mat_match_nr": "A-51",
+        "estimated_start": "12:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Rosemary Christensen",
+                "country": "AE",
+                "event_registration_id": 3116653,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Toby Singleton",
+                "country": "CN",
+                "event_registration_id": 3116642,
+                "club": "Alliance",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665689,
+        "bracket_id": 99506,
+        "name": "Match 1\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-52",
+        "estimated_start": "12:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Naomi Hubbard",
+                "country": "AE",
+                "event_registration_id": 3117107,
+                "club": "Frontline",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chris Ramsey",
+                "country": "YE",
+                "event_registration_id": 3117073,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665690,
+        "bracket_id": 99506,
+        "name": "Match 2\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-53",
+        "estimated_start": "12:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tommie Abbott",
+                "country": "BR",
+                "event_registration_id": 3116763,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Ma Roberts",
+                "country": "RU",
+                "event_registration_id": 3117169,
+                "club": "CHECKMAT MOSCOW\\ADAEV TEAM KOVROV",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665691,
+        "bracket_id": 99506,
+        "name": "Match 3\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-54",
+        "estimated_start": "13:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonas Junias JONAS",
+                "country": "NA",
+                "event_registration_id": 3117037,
+                "club": "Namibia Boxing Team",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bernard Cunningham",
+                "country": "EE",
+                "event_registration_id": 3117232,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665692,
+        "bracket_id": 99506,
+        "name": "Match 4\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 4,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-55",
+        "estimated_start": "13:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chris Ramsey",
+                "country": "YE",
+                "event_registration_id": 3117073,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tommie Abbott",
+                "country": "BR",
+                "event_registration_id": 3116763,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665693,
+        "bracket_id": 99506,
+        "name": "Match 5\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 5,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-56",
+        "estimated_start": "13:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Ma Roberts",
+                "country": "RU",
+                "event_registration_id": 3117169,
+                "club": "CHECKMAT MOSCOW\\ADAEV TEAM KOVROV",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonas Junias JONAS",
+                "country": "NA",
+                "event_registration_id": 3117037,
+                "club": "Namibia Boxing Team",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665694,
+        "bracket_id": 99506,
+        "name": "Match 6\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 6,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-57",
+        "estimated_start": "13:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bernard Cunningham",
+                "country": "EE",
+                "event_registration_id": 3117232,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117071,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665695,
+        "bracket_id": 99506,
+        "name": "Match 7\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 7,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-58",
+        "estimated_start": "13:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tyrone Carlson",
+                "country": "NL",
+                "event_registration_id": 3117197,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kristopher Caldwell",
+                "country": "CN",
+                "event_registration_id": 3116878,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665696,
+        "bracket_id": 99506,
+        "name": "Match 8\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 8,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-59",
+        "estimated_start": "13:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Naomi Hubbard",
+                "country": "AE",
+                "event_registration_id": 3117107,
+                "club": "Frontline",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Herman Turner",
+                "country": "GR",
+                "event_registration_id": 3117259,
+                "club": "10th planet Jiu Jitsu",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665697,
+        "bracket_id": 99506,
+        "name": "Match 9\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 9,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-60",
+        "estimated_start": "13:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117071,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tyrone Carlson",
+                "country": "NL",
+                "event_registration_id": 3117197,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665698,
+        "bracket_id": 99506,
+        "name": "Match 10\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 10,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-61",
+        "estimated_start": "13:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kristopher Caldwell",
+                "country": "CN",
+                "event_registration_id": 3116878,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Herman Turner",
+                "country": "GR",
+                "event_registration_id": 3117259,
+                "club": "10th planet Jiu Jitsu",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665699,
+        "bracket_id": 99506,
+        "name": "Match 11\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 11,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-62",
+        "estimated_start": "13:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Naomi Hubbard",
+                "country": "AE",
+                "event_registration_id": 3117107,
+                "club": "Frontline",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tommie Abbott",
+                "country": "BR",
+                "event_registration_id": 3116763,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665700,
+        "bracket_id": 99506,
+        "name": "Match 12\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 12,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-63",
+        "estimated_start": "13:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chris Ramsey",
+                "country": "YE",
+                "event_registration_id": 3117073,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Ma Roberts",
+                "country": "RU",
+                "event_registration_id": 3117169,
+                "club": "CHECKMAT MOSCOW\\ADAEV TEAM KOVROV",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665701,
+        "bracket_id": 99506,
+        "name": "Match 13\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 13,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-64",
+        "estimated_start": "14:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tommie Abbott",
+                "country": "BR",
+                "event_registration_id": 3116763,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonas Junias JONAS",
+                "country": "NA",
+                "event_registration_id": 3117037,
+                "club": "Namibia Boxing Team",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665702,
+        "bracket_id": 99506,
+        "name": "Match 14\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 14,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-65",
+        "estimated_start": "14:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Ma Roberts",
+                "country": "RU",
+                "event_registration_id": 3117169,
+                "club": "CHECKMAT MOSCOW\\ADAEV TEAM KOVROV",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bernard Cunningham",
+                "country": "EE",
+                "event_registration_id": 3117232,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665703,
+        "bracket_id": 99506,
+        "name": "Match 15\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 15,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-66",
+        "estimated_start": "14:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonas Junias JONAS",
+                "country": "NA",
+                "event_registration_id": 3117037,
+                "club": "Namibia Boxing Team",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117071,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665704,
+        "bracket_id": 99506,
+        "name": "Match 16\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 16,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-67",
+        "estimated_start": "14:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bernard Cunningham",
+                "country": "EE",
+                "event_registration_id": 3117232,
+                "club": "Roger Gracie",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tyrone Carlson",
+                "country": "NL",
+                "event_registration_id": 3117197,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665705,
+        "bracket_id": 99506,
+        "name": "Match 17\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 17,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-68",
+        "estimated_start": "14:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117071,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kristopher Caldwell",
+                "country": "CN",
+                "event_registration_id": 3116878,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665706,
+        "bracket_id": 99506,
+        "name": "Match 18\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 18,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-69",
+        "estimated_start": "14:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Tyrone Carlson",
+                "country": "NL",
+                "event_registration_id": 3117197,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Herman Turner",
+                "country": "GR",
+                "event_registration_id": 3117259,
+                "club": "10th planet Jiu Jitsu",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665707,
+        "bracket_id": 99506,
+        "name": "Match 19\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 19,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-70",
+        "estimated_start": "14:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Naomi Hubbard",
+                "country": "AE",
+                "event_registration_id": 3117107,
+                "club": "Frontline",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kristopher Caldwell",
+                "country": "CN",
+                "event_registration_id": 3116878,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665708,
+        "bracket_id": 99506,
+        "name": "Match 20\/20",
+        "group": "Juvenile boys \/ White \/ -74 kg (Middle)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 20,
+        "schedule_block_id": [
+            104019
+        ],
+        "mat_match_nr": "A-71",
+        "estimated_start": "14:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Chris Ramsey",
+                "country": "YE",
+                "event_registration_id": 3117073,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Herman Turner",
+                "country": "GR",
+                "event_registration_id": 3117259,
+                "club": "10th planet Jiu Jitsu",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665510,
+        "bracket_id": 99464,
+        "name": "Match 1\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-72",
+        "estimated_start": "14:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Katrina Simoes",
+                "country": "US",
+                "event_registration_id": 3117080,
+                "club": "Animals MMA",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Darlena Jenkins",
+                "country": "NO",
+                "event_registration_id": 3116718,
+                "club": "Novus Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665511,
+        "bracket_id": 99464,
+        "name": "Match 2\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-73",
+        "estimated_start": "14:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Nicolas Daniels",
+                "country": "KR",
+                "event_registration_id": 3117353,
+                "club": "F\u00f6reningen highschool",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "William Barnett",
+                "country": "GB",
+                "event_registration_id": 3116896,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665512,
+        "bracket_id": 99464,
+        "name": "Match 3\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-74",
+        "estimated_start": "15:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kevin Gilbert",
+                "country": "CN",
+                "event_registration_id": 3116674,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jean Hernandez",
+                "country": "FR",
+                "event_registration_id": 3116991,
+                "club": "Flam 91",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665513,
+        "bracket_id": 99464,
+        "name": "Match 4\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 4,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-75",
+        "estimated_start": "15:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Darlena Jenkins",
+                "country": "NO",
+                "event_registration_id": 3116718,
+                "club": "Novus Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Nicolas Daniels",
+                "country": "KR",
+                "event_registration_id": 3117353,
+                "club": "F\u00f6reningen highschool",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665514,
+        "bracket_id": 99464,
+        "name": "Match 5\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 5,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-76",
+        "estimated_start": "15:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "William Barnett",
+                "country": "GB",
+                "event_registration_id": 3116896,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kevin Gilbert",
+                "country": "CN",
+                "event_registration_id": 3116674,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665515,
+        "bracket_id": 99464,
+        "name": "Match 6\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 6,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-77",
+        "estimated_start": "15:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jean Hernandez",
+                "country": "FR",
+                "event_registration_id": 3116991,
+                "club": "Flam 91",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Roger Pittman",
+                "country": "BR",
+                "event_registration_id": 3117042,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665516,
+        "bracket_id": 99464,
+        "name": "Match 7\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 7,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-78",
+        "estimated_start": "15:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Katrina Simoes",
+                "country": "US",
+                "event_registration_id": 3117080,
+                "club": "Animals MMA",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sidney Bates",
+                "country": "DE",
+                "event_registration_id": 3117084,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665517,
+        "bracket_id": 99464,
+        "name": "Match 8\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 8,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-79",
+        "estimated_start": "15:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Darlena Jenkins",
+                "country": "NO",
+                "event_registration_id": 3116718,
+                "club": "Novus Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "William Barnett",
+                "country": "GB",
+                "event_registration_id": 3116896,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665518,
+        "bracket_id": 99464,
+        "name": "Match 9\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 9,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-80",
+        "estimated_start": "15:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Roger Pittman",
+                "country": "BR",
+                "event_registration_id": 3117042,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sidney Bates",
+                "country": "DE",
+                "event_registration_id": 3117084,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665519,
+        "bracket_id": 99464,
+        "name": "Match 10\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 10,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-81",
+        "estimated_start": "15:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Katrina Simoes",
+                "country": "US",
+                "event_registration_id": 3117080,
+                "club": "Animals MMA",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Nicolas Daniels",
+                "country": "KR",
+                "event_registration_id": 3117353,
+                "club": "F\u00f6reningen highschool",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665520,
+        "bracket_id": 99464,
+        "name": "Match 11\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 11,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-82",
+        "estimated_start": "15:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "William Barnett",
+                "country": "GB",
+                "event_registration_id": 3116896,
+                "club": "Atos",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jean Hernandez",
+                "country": "FR",
+                "event_registration_id": 3116991,
+                "club": "Flam 91",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665521,
+        "bracket_id": 99464,
+        "name": "Match 12\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 12,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-83",
+        "estimated_start": "15:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Nicolas Daniels",
+                "country": "KR",
+                "event_registration_id": 3117353,
+                "club": "F\u00f6reningen highschool",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kevin Gilbert",
+                "country": "CN",
+                "event_registration_id": 3116674,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665522,
+        "bracket_id": 99464,
+        "name": "Match 13\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 13,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-84",
+        "estimated_start": "16:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jean Hernandez",
+                "country": "FR",
+                "event_registration_id": 3116991,
+                "club": "Flam 91",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sidney Bates",
+                "country": "DE",
+                "event_registration_id": 3117084,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665523,
+        "bracket_id": 99464,
+        "name": "Match 14\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 14,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-85",
+        "estimated_start": "16:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Kevin Gilbert",
+                "country": "CN",
+                "event_registration_id": 3116674,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Roger Pittman",
+                "country": "BR",
+                "event_registration_id": 3117042,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665524,
+        "bracket_id": 99464,
+        "name": "Match 15\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 15,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-86",
+        "estimated_start": "16:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Darlena Jenkins",
+                "country": "NO",
+                "event_registration_id": 3116718,
+                "club": "Novus Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Sidney Bates",
+                "country": "DE",
+                "event_registration_id": 3117084,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665525,
+        "bracket_id": 99464,
+        "name": "Match 16\/16",
+        "group": "Juvenile boys \/ Blue \/ -58,5 kg (Light feather)",
+        "round": 4,
+        "state": "seeded",
+        "match_nr": 16,
+        "schedule_block_id": [
+            103977
+        ],
+        "mat_match_nr": "A-87",
+        "estimated_start": "16:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Katrina Simoes",
+                "country": "US",
+                "event_registration_id": 3117080,
+                "club": "Animals MMA",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Roger Pittman",
+                "country": "BR",
+                "event_registration_id": 3117042,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665465,
+        "bracket_id": 99451,
+        "name": "Match 1\/6",
+        "group": "Juvenile boys \/ Blue \/ -89,3 kg (Super heavy)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            103964
+        ],
+        "mat_match_nr": "A-88",
+        "estimated_start": "16:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Giuseppe Greene",
+                "country": "NO",
+                "event_registration_id": 3117001,
+                "club": "Frontline Academy Drammen",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Gabriel Charles",
+                "country": "FR",
+                "event_registration_id": 3117142,
+                "club": "Judo Club Belley",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665466,
+        "bracket_id": 99451,
+        "name": "Match 2\/6",
+        "group": "Juvenile boys \/ Blue \/ -89,3 kg (Super heavy)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            103964
+        ],
+        "mat_match_nr": "A-89",
+        "estimated_start": "16:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Janyce Andrews",
+                "country": "SE",
+                "event_registration_id": 3116659,
+                "club": "Wasa Kickboxning \/ TDK Klubb",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Mike Nicoletti",
+                "country": "US",
+                "event_registration_id": 3117137,
+                "club": "Princeton BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665467,
+        "bracket_id": 99451,
+        "name": "Match 3\/6",
+        "group": "Juvenile boys \/ Blue \/ -89,3 kg (Super heavy)",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            103964
+        ],
+        "mat_match_nr": "A-90",
+        "estimated_start": "16:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Katherina Wagner",
+                "country": "RU",
+                "event_registration_id": 3116786,
+                "club": "\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0417\u0432\u0435\u0437\u0434\u0430",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bettina Edwards",
+                "country": "SE",
+                "event_registration_id": 3116986,
+                "club": "Liljeholmens BJJ- klubb",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665468,
+        "bracket_id": 99451,
+        "name": "Match 4\/6",
+        "group": "Juvenile boys \/ Blue \/ -89,3 kg (Super heavy)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 4,
+        "schedule_block_id": [
+            103964
+        ],
+        "mat_match_nr": "A-91",
+        "estimated_start": "16:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Gabriel Charles",
+                "country": "FR",
+                "event_registration_id": 3117142,
+                "club": "Judo Club Belley",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Janyce Andrews",
+                "country": "SE",
+                "event_registration_id": 3116659,
+                "club": "Wasa Kickboxning \/ TDK Klubb",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665469,
+        "bracket_id": 99451,
+        "name": "Match 5\/6",
+        "group": "Juvenile boys \/ Blue \/ -89,3 kg (Super heavy)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 5,
+        "schedule_block_id": [
+            103964
+        ],
+        "mat_match_nr": "A-92",
+        "estimated_start": "16:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Mike Nicoletti",
+                "country": "US",
+                "event_registration_id": 3117137,
+                "club": "Princeton BJJ",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Katherina Wagner",
+                "country": "RU",
+                "event_registration_id": 3116786,
+                "club": "\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0417\u0432\u0435\u0437\u0434\u0430",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665470,
+        "bracket_id": 99451,
+        "name": "Match 6\/6",
+        "group": "Juvenile boys \/ Blue \/ -89,3 kg (Super heavy)",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 6,
+        "schedule_block_id": [
+            103964
+        ],
+        "mat_match_nr": "A-93",
+        "estimated_start": "16:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Giuseppe Greene",
+                "country": "NO",
+                "event_registration_id": 3117001,
+                "club": "Frontline Academy Drammen",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bettina Edwards",
+                "country": "SE",
+                "event_registration_id": 3116986,
+                "club": "Liljeholmens BJJ- klubb",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666031,
+        "bracket_id": 99680,
+        "name": "Match 1\/3",
+        "group": "Boys \/ White \/ 10-11 years \/ -28 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104193
+        ],
+        "mat_match_nr": "A-94",
+        "estimated_start": "17:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Carroll Alvarado",
+                "country": "BR",
+                "event_registration_id": 3117530,
+                "club": "Ottawa",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonathan Harper",
+                "country": "GB",
+                "event_registration_id": 3117207,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665475,
+        "bracket_id": 99454,
+        "name": "Match 1\/3",
+        "group": "Boys \/ Grey \/ 14-15 years \/ -52 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            103967
+        ],
+        "mat_match_nr": "A-95",
+        "estimated_start": "17:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bethany Andrews",
+                "country": "GR",
+                "event_registration_id": 3117262,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jewell Ramirez",
+                "country": "GB",
+                "event_registration_id": 3116662,
+                "club": "AL AHLI JIU-JITSU CLUB",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666032,
+        "bracket_id": 99680,
+        "name": "Match 2\/3",
+        "group": "Boys \/ White \/ 10-11 years \/ -28 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104193
+        ],
+        "mat_match_nr": "A-96",
+        "estimated_start": "17:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Carroll Alvarado",
+                "country": "BR",
+                "event_registration_id": 3117530,
+                "club": "Ottawa",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonathan Harper",
+                "country": "GB",
+                "event_registration_id": 3117207,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665476,
+        "bracket_id": 99454,
+        "name": "Match 2\/3",
+        "group": "Boys \/ Grey \/ 14-15 years \/ -52 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            103967
+        ],
+        "mat_match_nr": "A-97",
+        "estimated_start": "17:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bethany Andrews",
+                "country": "GR",
+                "event_registration_id": 3117262,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jewell Ramirez",
+                "country": "GB",
+                "event_registration_id": 3116662,
+                "club": "AL AHLI JIU-JITSU CLUB",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666033,
+        "bracket_id": 99680,
+        "name": "Match 3\/3",
+        "group": "Boys \/ White \/ 10-11 years \/ -28 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104193
+        ],
+        "mat_match_nr": "A-98",
+        "estimated_start": "17:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Carroll Alvarado",
+                "country": "BR",
+                "event_registration_id": 3117530,
+                "club": "Ottawa",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jonathan Harper",
+                "country": "GB",
+                "event_registration_id": 3117207,
+                "club": "SGS Judo",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665477,
+        "bracket_id": 99454,
+        "name": "Match 3\/3",
+        "group": "Boys \/ Grey \/ 14-15 years \/ -52 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            103967
+        ],
+        "mat_match_nr": "A-99",
+        "estimated_start": "17:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Bethany Andrews",
+                "country": "GR",
+                "event_registration_id": 3117262,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Jewell Ramirez",
+                "country": "GB",
+                "event_registration_id": 3116662,
+                "club": "AL AHLI JIU-JITSU CLUB",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666105,
+        "bracket_id": 99734,
+        "name": "Match 1\/3",
+        "group": "Boys \/ Yellow \/ 6-7 years \/ -31 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104247
+        ],
+        "mat_match_nr": "A-100",
+        "estimated_start": "17:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Trey Babauta",
+                "country": "GU",
+                "event_registration_id": 3117337,
+                "club": "Elijah Reyes",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Neal Carlson",
+                "country": "JP",
+                "event_registration_id": 3117483,
+                "club": "Bogot\u00e1",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666127,
+        "bracket_id": 99752,
+        "name": "Match 1\/3",
+        "group": "Boys \/ White \/ 10-11 years \/ -56 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104265
+        ],
+        "mat_match_nr": "A-101",
+        "estimated_start": "17:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Calvin Erickson",
+                "country": "BR",
+                "event_registration_id": 3117397,
+                "club": "Bogot\u00e1",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Patrick Howell",
+                "country": "FR",
+                "event_registration_id": 3117437,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666106,
+        "bracket_id": 99734,
+        "name": "Match 2\/3",
+        "group": "Boys \/ Yellow \/ 6-7 years \/ -31 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104247
+        ],
+        "mat_match_nr": "A-102",
+        "estimated_start": "17:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Trey Babauta",
+                "country": "GU",
+                "event_registration_id": 3117337,
+                "club": "Elijah Reyes",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Neal Carlson",
+                "country": "JP",
+                "event_registration_id": 3117483,
+                "club": "Bogot\u00e1",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666128,
+        "bracket_id": 99752,
+        "name": "Match 2\/3",
+        "group": "Boys \/ White \/ 10-11 years \/ -56 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104265
+        ],
+        "mat_match_nr": "A-103",
+        "estimated_start": "17:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Calvin Erickson",
+                "country": "BR",
+                "event_registration_id": 3117397,
+                "club": "Bogot\u00e1",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Patrick Howell",
+                "country": "FR",
+                "event_registration_id": 3117437,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666107,
+        "bracket_id": 99734,
+        "name": "Match 3\/3",
+        "group": "Boys \/ Yellow \/ 6-7 years \/ -31 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104247
+        ],
+        "mat_match_nr": "A-104",
+        "estimated_start": "18:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Trey Babauta",
+                "country": "GU",
+                "event_registration_id": 3117337,
+                "club": "Elijah Reyes",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Neal Carlson",
+                "country": "JP",
+                "event_registration_id": 3117483,
+                "club": "Bogot\u00e1",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 666129,
+        "bracket_id": 99752,
+        "name": "Match 3\/3",
+        "group": "Boys \/ White \/ 10-11 years \/ -56 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104265
+        ],
+        "mat_match_nr": "A-105",
+        "estimated_start": "18:08",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Calvin Erickson",
+                "country": "BR",
+                "event_registration_id": 3117397,
+                "club": "Bogot\u00e1",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Patrick Howell",
+                "country": "FR",
+                "event_registration_id": 3117437,
+                "club": "Dynamix Fighting Sports",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665820,
+        "bracket_id": 99548,
+        "name": "Match 1\/3",
+        "group": "Boys \/ Orange \/ 14-15 years \/ -68 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104061
+        ],
+        "mat_match_nr": "A-106",
+        "estimated_start": "18:14",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Denny Carpenter",
+                "country": "SE",
+                "event_registration_id": 3117086,
+                "club": "Poseidon Jiu Jitsu Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Merle Parks",
+                "country": "CO",
+                "event_registration_id": 3116868,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665885,
+        "bracket_id": 99580,
+        "name": "Match 1\/3",
+        "group": "Boys \/ Grey \/ 14-15 years \/ -56 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104093
+        ],
+        "mat_match_nr": "A-107",
+        "estimated_start": "18:20",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Cristina Harmon",
+                "country": "GB",
+                "event_registration_id": 3117267,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Trevor Russell",
+                "country": "GB",
+                "event_registration_id": 3116931,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665821,
+        "bracket_id": 99548,
+        "name": "Match 2\/3",
+        "group": "Boys \/ Orange \/ 14-15 years \/ -68 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104061
+        ],
+        "mat_match_nr": "A-108",
+        "estimated_start": "18:26",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Denny Carpenter",
+                "country": "SE",
+                "event_registration_id": 3117086,
+                "club": "Poseidon Jiu Jitsu Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Merle Parks",
+                "country": "CO",
+                "event_registration_id": 3116868,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665886,
+        "bracket_id": 99580,
+        "name": "Match 2\/3",
+        "group": "Boys \/ Grey \/ 14-15 years \/ -56 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104093
+        ],
+        "mat_match_nr": "A-109",
+        "estimated_start": "18:32",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Cristina Harmon",
+                "country": "GB",
+                "event_registration_id": 3117267,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Trevor Russell",
+                "country": "GB",
+                "event_registration_id": 3116931,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665822,
+        "bracket_id": 99548,
+        "name": "Match 3\/3",
+        "group": "Boys \/ Orange \/ 14-15 years \/ -68 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104061
+        ],
+        "mat_match_nr": "A-110",
+        "estimated_start": "18:38",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Denny Carpenter",
+                "country": "SE",
+                "event_registration_id": 3117086,
+                "club": "Poseidon Jiu Jitsu Academy",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Merle Parks",
+                "country": "CO",
+                "event_registration_id": 3116868,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665887,
+        "bracket_id": 99580,
+        "name": "Match 3\/3",
+        "group": "Boys \/ Grey \/ 14-15 years \/ -56 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104093
+        ],
+        "mat_match_nr": "A-111",
+        "estimated_start": "18:44",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Cristina Harmon",
+                "country": "GB",
+                "event_registration_id": 3117267,
+                "club": "Gracie Barra",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Trevor Russell",
+                "country": "GB",
+                "event_registration_id": 3116931,
+                "club": "Checkmat",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665937,
+        "bracket_id": 99618,
+        "name": "Match 1\/3",
+        "group": "Boys \/ Yellow \/ 8-9 years \/ -48 kg",
+        "round": 1,
+        "state": "seeded",
+        "match_nr": 1,
+        "schedule_block_id": [
+            104131
+        ],
+        "mat_match_nr": "A-112",
+        "estimated_start": "18:50",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117014,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Calvin Erickson",
+                "country": "BR",
+                "event_registration_id": 3117377,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665938,
+        "bracket_id": 99618,
+        "name": "Match 2\/3",
+        "group": "Boys \/ Yellow \/ 8-9 years \/ -48 kg",
+        "round": 2,
+        "state": "seeded",
+        "match_nr": 2,
+        "schedule_block_id": [
+            104131
+        ],
+        "mat_match_nr": "A-113",
+        "estimated_start": "18:56",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117014,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Calvin Erickson",
+                "country": "BR",
+                "event_registration_id": 3117377,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    },
+    {
+        "id": 665939,
+        "bracket_id": 99618,
+        "name": "Match 3\/3",
+        "group": "Boys \/ Yellow \/ 8-9 years \/ -48 kg",
+        "round": 3,
+        "state": "seeded",
+        "match_nr": 3,
+        "schedule_block_id": [
+            104131
+        ],
+        "mat_match_nr": "A-114",
+        "estimated_start": "19:02",
+        "winnerFromBracket": null,
+        "time_passed": null,
+        "wonBy": null,
+        "seats": [
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Dominic Perry",
+                "country": "BR",
+                "event_registration_id": 3117014,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            },
+            {
+                "type": "registration",
+                "image": null,
+                "name": "Calvin Erickson",
+                "country": "BR",
+                "event_registration_id": 3117377,
+                "club": "Bjj Globetrotters (academy)",
+                "affiliation": null,
+                "approved": 1,
+                "isWinner": false,
+                "status": null
+            }
+        ]
+    }
+]

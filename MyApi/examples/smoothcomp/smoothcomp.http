@@ -1,0 +1,116 @@
+@event 3798
+@mat 56500
+@matchId 663848
+@host = demo.smoothcomp.com
+@bearer = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RlbW8uc21vb3RoY29tcC5jb20vc3Yvc2NvcmVib2FyZC82NjYxODIiLCJpYXQiOjE3MjkzNTE2NzQsImV4cCI6MTczMDU2MTI3NCwibmJmIjoxNzI5MzUxNjc0LCJqdGkiOiJ2NjBwb2VVT2FJY1Rwbmk4Iiwic3ViIjo1NzMwMywicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.EOsRVyeE9uaqzyhf0kiExO1UTg_VOK0P0UAMRYYO8lM
+
+###
+
+###https://smoothcomp.com/sv/event/19595/overlay/16714
+###https://smoothcomp.com/sv/event/19595/overlay/16715
+###https://demo.smoothcomp.com/sv/event/{{event}}/overlay/16714
+
+###
+
+GET https://{{host}}/sv/event/{{event}}/schedule/new/mat/{{mat}}/matches.json
+Content-Type: application/json
+Authorization: Bearer {{bearer}}
+
+###
+
+GET https://{{host}}/sv/event/3798/schedule/new/mats.json/7529
+Content-Type: application/json
+Authorization: Bearer {{bearer}}
+
+
+###GET https://{{host}}/sv/getBracketMatchData/{{matchId}}
+GET https://{{host}}/sv/getBracketMatchData/663848
+Content-Type: application/json
+Authorization: Bearer {{bearer}}
+###
+
+POST https://{{host}}/api/v1/bracketMatchStart
+Content-Type: application/json
+Authorization: Bearer {{bearer}}
+
+{
+    "match_id": 666182,
+    "device_id": "59fcaa50-79e4-11ef-a2bb-ad9d73bac34b"
+}
+
+###
+
+POST https://{{host}}/api/v1/bracketMatchSave
+Content-Type: application/json
+Authorization: Bearer {{bearer}}
+
+{
+    "scoreboard": null,
+    "device_id": "59fcaa50-79e4-11ef-a2bb-ad9d73bac34b",
+    "winner": "right",
+    "match_id": 666182,
+    "history": [
+        {
+            "seat": 1,
+            "value": 2,
+            "action": "score",
+            "clickAction": "taekwondoAdd",
+            "seconds": 4,
+            "round": 2,
+            "reason": ""
+        },
+        {
+            "seat": 0,
+            "value": 2,
+            "action": "score",
+            "clickAction": "taekwondoAdd",
+            "seconds": 4,
+            "round": 2,
+            "reason": ""
+        },
+        {
+            "seat": 1,
+            "value": 3,
+            "action": "score",
+            "clickAction": "taekwondoAdd",
+            "seconds": 4,
+            "round": 2,
+            "reason": ""
+        }
+    ],
+    "metadata": {
+        "isDesktopApp": true,
+        "totalRounds": 2,
+        "lastRound": 2,
+        "timePassed": 4300,
+        "timeRemaining": 116000,
+        "match": {
+            "id": 666182,
+            "type": "taekwondo",
+            "time": 0,
+            "round_times": [
+                0,
+                0
+            ],
+            "rest_time": 60000,
+            "label": "",
+            "current_round": 2,
+            "resting": false,
+            "state": "end"
+        },
+        "left": {
+            "id": 17884,
+            "advantage": 0,
+            "penalty": 0,
+            "score": 2,
+            "won": "false"
+        },
+        "right": {
+            "id": 29264,
+            "advantage": 0,
+            "penalty": 0,
+            "score": 5,
+            "won": "final_score"
+        }
+    }
+}

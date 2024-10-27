@@ -1,0 +1,22 @@
+{
+    "matchNumber": "1-01",
+    "matchCategoryName": "M -172cm",
+    "matchCategoryGender": "MALE",
+    "matchSubCategoryName": "CADETS",
+    "roundNumber": 1,
+    "roundNumberStr": "1",
+    "tkStrikeSystemTimestamp": 1730065105748,
+    "tkStrikeSystemTimestampStr": "27\/10\/2024 22:38:25:748",
+    "roundTimestamp": 1730052000000,
+    "roundTimestampStr": "00:00.000",
+    "eventType": "END_ROUND",
+    "eventAddPoints": false,
+    "eventRemovePoints": false,
+    "bluePoints": 0,
+    "bluePenalties": 0,
+    "blueRoundWins": 1,
+    "redPoints": 0,
+    "redPenalties": 0,
+    "redRoundWins": 0,
+    "hitlevel": 0
+}

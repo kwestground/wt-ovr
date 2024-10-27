@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>SmoothStrike Overlay</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.4/signalr.min.js"></script>
+
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            font-size:24px;
+            margin: 0;
+            background-image: url('match-bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+
+        #scoreboard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            bottom: 5%;
+            left: 50%;
+            transform: translate(-50%);
+            color: white;
+            padding: 0px;
+            border-radius: 8px;
+            width: auto; /* Anpassas efter innehållet */
+            text-align: center;
+        }
+
+        #top, #sub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            width: 100%; /* Täcker hela bredden */            
+        }
+        #bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+            margin: 0;
+            width: 100%; /* Täcker hela bredden */            
+        }
+
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;   
+            font-size: 2em;
+            width: 100%; /* Täcker hela bredden */
+        }
+
+    #blueName {
+        width: 500px;
+        text-align: right;
+        padding:10px;
+        background: linear-gradient(
+            270deg, 
+            rgba(30, 80, 255, 0.8), 
+            rgba(30, 80, 255, 0.5) 50%,
+            rgba(30, 80, 255, 0.1),
+            rgba(30, 80, 255, 0.0)
+        );
+        font-size: 0.6em;
+    }
+    #blueScore {
+        padding:5px;
+        width: 60px;
+        background-color: rgba(0, 0, 255, 0.8);
+    }
+
+    #blueRoundWins {
+        padding:10px;
+        width: 30px;
+        background-color: rgba(0, 0, 255, 0.5);
+    }
+
+    #bluePenalties {
+        padding:10px;
+        width: 30px;
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+
+    #winnerBlue {
+        background-color: rgba(255, 255, 0, 0.9);
+        font-weight: bold;
+    }
+
+    #winnerRed {
+        background-color: rgba(255, 255, 0, 0.9);
+        font-weight: bold;
+    }
+
+    #timeBoard {
+        padding:0px;        
+        width: 265px;
+    }
+
+    #time {
+        background-color: rgba(0, 0, 0, 0.7);
+        font-weight: bold;
+        padding: 5px;
+        vertical-align: middle;
+    }
+
+    #category {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding:5px;
+        font-size:0.8em;
+        font-weight: normal;
+    }
+
+    .autohide:empty {
+        display: none;
+    }
+
+    #rest {
+        background-color: rgba(0, 0, 0, 0.7);
+        font-weight: bold;
+        display: none;
+    }
+
+    #redScore {
+        padding:5px;
+        width: 60px;
+        background-color: rgba(255, 0, 0, 0.7);
+    }
+
+    #redRoundWins {
+        padding:10px;
+        width: 30px;
+        background-color: rgba(255, 0, 0, 0.5);
+    }
+
+    #redPenalties {
+        padding:10px;
+        width: 30px;
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    #redName {
+        width: 500px;
+        text-align: left;
+        padding:10px;
+        background: linear-gradient(
+            90deg, 
+            rgba(255, 30, 30, 0.8), 
+            rgba(255, 30, 30, 0.5) 50%,
+            rgba(255, 30, 30, 0.1),
+            rgba(255, 30, 30, 0.0)
+        );
+
+        font-size: 0.6em;
+    }
+
+    #alert {
+        font-weight: bold;
+        background-color: rgba(255, 255, 0, 0.9);
+        padding: 10px;
+        margin:10px;
+        color: #000;
+        border: 5px solid #000;
+    }
+
+    #round {
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+    }
+    #match {
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+    }
+
+    .hidden {
+        opacity: 0;
+        animation: slideDown 1s ease;
+        display: none;
+    }
+
+    .show {
+        opacity: 1;
+        animation: slideUp 1s ease;
+        display: block;
+    }
+
+    @keyframes slideUp {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+    </style>
+</head>
+<body>
+<div id="scoreboard" class="hidden">
+
+    <div>
+        <div id="top">
+            <!--
+            <div>
+                <div id="winnerBlue" class="hidden">BLUE WINNER</div>
+            </div>
+            -->
+            <div>
+                <div id="alert" class="hidden"></span>
+            </div>
+            <!--
+            <div>
+                <div id="winnerRed" class="hidden">RED WINNER</div>
+
+            </div>
+            -->
+        </div>
+    </div>
+
+    <div>
+        <div id="sub">
+            <div id="category" class="autohide"></span>
+        </div>
+    </div>
+    <div id="main">
+        <div id="blueName">Blå</div>
+        <div id="blueScore">0</div>
+        <div id="timeBoard">
+            <div id="time">-:--</div>
+            <div id="rest">REST</div>
+        </div>
+        <div id="redScore">0</div>
+        <div id="redName">Röd</div>
+    </div>
+
+    <div>
+        <div id="bottom">
+            <div id="bluePenalties">0</div>
+            <div id="blueRoundWins">0</div>
+            <div id="match" class="autohide"></div>
+            <div id="round" class="autohide"></div>
+            <div id="redRoundWins">0</div>
+            <div id="redPenalties">0</div>
+        </div>
+    </div>
+</div>
+
+<ul id="messagesList"></ul>
+ 
+
+<script>
+        var hideScoreBoardFlag = true;
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/hub")
+            .build();
+
+        async function startConnection() {
+            try {
+                await connection.start();
+                console.log("Connected to SignalR Hub");
+            } catch (err) {
+                console.error("Error connecting to SignalR Hub", err);
+                setTimeout(startConnection, 5000); // Retry connection
+            }
+        }
+        
+        /*
+        const originalOnMethod = connection.on.bind(connection);
+        connection.on = (methodName, newMethod) => {
+            originalOnMethod(methodName, (...args) => {
+                // console.log(`Message Type: ${methodName}`, ...args); // Log the message type and content
+                newMethod(...args);
+            });
+        };
+        */
+        connection.on("new-match-configured", (user, message) => {
+            showScoreBoard();
+            console.log("new-match-configured", message);
+            document.getElementById("blueName").textContent = message.blueAthlete.scoreboardName;
+            document.getElementById("redName").textContent = message.redAthlete.scoreboardName;
+
+            document.getElementById("category").textContent = message.category.subCategory + " " + message.category.name + " - " + message.phase;
+        });
+
+        connection.on("match-result", (user, message) => {
+            hideScoreBoardFlag = true;
+            console.log("match-result", message);
+
+            // timer 10 sec then hide scoreboard
+            setTimeout(() => {
+                if (hideScoreBoardFlag) {
+                    hideScoreBoard();
+                }
+            }, 5000);
+
+        });
+
+        connection.on("new-match-event", (user, message) => {
+            hideScoreBoardFlag = false;
+            console.log("new-match-event", message.eventType);
+            
+            showScoreBoard();
+            updateScoreBoard(message);
+
+            switch (message.eventType) {
+                case "END_ROUND":
+                    // hideTime()
+                    showAlert('Rest time');
+                    break;
+
+                case "START_ROUND":
+                    updateTime(message);
+                    updateScoreBoard(message);
+                    
+                    break;
+
+                case "TIMEOUT":
+                    updateTime(message);
+                    showAlert('Time out');
+                    break;
+
+                case "DOCTOR":
+                    updateTime(message);
+                    showAlert('Doctor');
+                    break;
+
+                case "RESUME":
+                    updateTime(message);
+                    break;
+
+                case "MOVE_TO_NEXT_ROUND":
+                    updateTime(message);
+                    break;
+
+                case "ROUNDCOUNTDOWN_CHANGE":
+                    updateTime(message);
+                    break;
+
+                case "KYESHI_CHANGE":
+                    updateTime(message);
+                    showAlert('Key Shi');
+                    break;
+
+                case "BLUE_BODY_POINT":
+                case "RED_BODY_POINT":
+                    updateScoreBoard(message);
+                    break;
+
+                case "BLUE_ADD_NEAR_MISS_HIT":                    
+                    break;
+
+                case "MATCH_FINISHED":
+                    showAlert(message.matchWinner + " WINS BY " + message.matchFinalDecision);
+                    break;
+
+                default:
+                    console.error("Unhandled message type", message);
+
+            }
+
+
+
+        });
+
+        function sendMessage() {
+            const user = document.getElementById("userInput").value;
+            const message = document.getElementById("messageInput").value;
+            connection.invoke("SendMessage", user, message).catch(err => console.error(err));
+        }
+
+        function showScoreBoard() {
+            document.getElementById("scoreboard").classList.remove("hidden");
+            document.getElementById("scoreboard").classList.add("show");
+        }
+
+        function hideScoreBoard() {
+            document.getElementById("scoreboard").classList.remove("show");
+            document.getElementById("scoreboard").classList.add("hidden");
+        }
+
+        function showAlert(text) {
+            console.log("showAlert", text);
+
+
+            document.getElementById("alert").classList.remove("hidden");
+            document.getElementById("alert").classList.add("show");
+
+            document.getElementById("alert").textContent = text;
+        }
+
+        function hideAlert() {
+            document.getElementById("alert").classList.remove("show");
+            document.getElementById("alert").classList.add("hidden");
+            document.getElementById("alert").textContent = "";
+        }
+
+        function updateScoreBoard(message) {            
+            const blueScore = message.bluePoints;
+            const redScore = message.redPoints;
+            const round = message.roundNumberStr;
+
+            document.getElementById("blueScore").textContent = blueScore;
+            document.getElementById("redScore").textContent = redScore;
+            document.getElementById("match").textContent = "" + message.matchNumber;
+            document.getElementById("round").textContent = "Round " + round;
+            document.getElementById("blueRoundWins").textContent = message.blueRoundWins;
+            document.getElementById("redRoundWins").textContent = message.redRoundWins;
+            document.getElementById("bluePenalties").textContent = message.bluePenalties;
+            document.getElementById("redPenalties").textContent = message.redPenalties;
+        }
+
+        function updateTime(message) {
+            
+            hideAlert();
+            
+            const [minutesAndSeconds] = message.roundTimestampStr.split('.');
+            document.getElementById("time").textContent = minutesAndSeconds;
+        }
+
+        function hideTime() {
+            document.getElementById("time").textContent = "";
+        }
+
+        startConnection(); // Start the SignalR connection
+    </script>
+</body>
+</html>
