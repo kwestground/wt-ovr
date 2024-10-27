@@ -8,7 +8,7 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            font-size:24px;
+            font-size:32px;
             margin: 0;
             background-image: url('match-bg.png');
             background-size: cover;
@@ -73,7 +73,7 @@
     }
     #blueScore {
         padding:5px;
-        width: 60px;
+        width: 100px;
         background-color: rgba(0, 0, 255, 0.8);
     }
 
@@ -130,7 +130,7 @@
 
     #redScore {
         padding:5px;
-        width: 60px;
+        width: 100px;
         background-color: rgba(255, 0, 0, 0.7);
     }
 
@@ -193,6 +193,14 @@
         display: block;
     }
 
+    #blueActions {
+        color:blue;
+    }
+
+    #redActions {
+        color:red;
+    }
+
     @keyframes slideUp {
         from {
             opacity: 0;
@@ -213,6 +221,16 @@
     </style>
 </head>
 <body>
+
+    <div id="blueAction">
+        <ul>
+        </ul>
+    </div>
+    <div id="redAction">
+        <ul>
+        </ul>
+    </div>
+
 <div id="scoreboard" class="hidden">
 
     <div>
@@ -309,7 +327,7 @@
                 if (hideScoreBoardFlag) {
                     hideScoreBoard();
                 }
-            }, 5000);
+            }, 30000);
 
         });
 
@@ -321,9 +339,24 @@
             updateScoreBoard(message);
 
             switch (message.eventType) {
+                case "START_MATCH":
+                    updateTime(message);
+                    break;
                 case "END_ROUND":
                     // hideTime()
                     showAlert('Rest time');
+                    break;
+
+                    case "BLUE_VIDEO_REQUEST":
+                    showAlert('Blue Video Request');
+                    break;
+                case "BLUE_VIDEO_QUOTA_ACCEPTED":
+                    break;
+
+                case "RED_VIDEO_REQUEST":
+                    showAlert('Red Video Request');
+                    break;
+                case "RED_VIDEO_QUOTA_ACCEPTED":
                     break;
 
                 case "START_ROUND":
@@ -340,6 +373,10 @@
                 case "DOCTOR":
                     updateTime(message);
                     showAlert('Doctor');
+                    break;
+
+                case "DOCTOR_QUIT":
+                    updateTime(message);
                     break;
 
                 case "RESUME":
@@ -360,7 +397,24 @@
                     break;
 
                 case "BLUE_BODY_POINT":
+                case "BLUE_ADD_NEAR_MISS_HIT":
+                case "BLUE_ADD_GAME_JEON":
+                case "BLUE_HEAD_POINT":
+                case "BLUE_PUNCH_POINT":
+                case "BLUE_HEAD_TECH_POINT":
+                case "BLUE_BODY_TECH_POINT":
+                    addBlueAction(message);
+                    updateScoreBoard(message);
+                    break;
+                    
                 case "RED_BODY_POINT":
+                case "RED_ADD_NEAR_MISS_HIT":
+                case "RED_ADD_GAME_JEON":
+                case "RED_HEAD_POINT":
+                case "RED_PUNCH_POINT":
+                case "RED_HEAD_TECH_POINT":
+                case "RED_BODY_TECH_POINT":
+                    addRedAction(message);
                     updateScoreBoard(message);
                     break;
 
@@ -379,6 +433,22 @@
 
 
         });
+
+        function addBlueAction(message) {
+            const action = message.eventType;
+            const actionList = document.querySelector("#blueAction ul");
+            const actionItem = document.createElement("li");
+            actionItem.textContent = action;
+            actionList.appendChild(actionItem);
+        }
+
+        function addRedAction(message) {
+            const action = message.eventType;
+            const actionList = document.querySelector("#redAction ul");
+            const actionItem = document.createElement("li");
+            actionItem.textContent = action;
+            actionList.appendChild(actionItem);
+        }
 
         function sendMessage() {
             const user = document.getElementById("userInput").value;
