@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace EventListner;
+namespace SmoothStrike.EventListner;
 
 public static class Endpoints
 {
@@ -12,7 +12,7 @@ public static class Endpoints
 
     public static void MapEventListner(this IEndpointRouteBuilder endpoints)
     {
-        endpoints.MapPost(NewMatchConfigured, async (IHubContext<OverlayHub> hubContext, [FromBody] NewMatch input) => 
+        endpoints.MapPost(NewMatchConfigured, async (IHubContext<OverlayHub> hubContext, [FromBody] NewMatch input) =>
         {
             await hubContext.Clients.All.SendAsync("new-match-configured", "Overlay", input);
             return Results.Ok();

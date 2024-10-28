@@ -1,7 +1,7 @@
 using JsonApiDotNetCore.Configuration;
 using Microsoft.EntityFrameworkCore;
-using MyApi;
-using EventListner;
+using SmoothStrike.EventListner;
+using SmoothStrike.Servers;
 
 var builder = WebApplication.CreateBuilder(args);
 

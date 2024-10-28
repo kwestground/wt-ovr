@@ -2,28 +2,31 @@
 @mat 56500
 @matchId 663848
 @host = demo.smoothcomp.com
-@bearer = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RlbW8uc21vb3RoY29tcC5jb20vc3Yvc2NvcmVib2FyZC82NjYxODIiLCJpYXQiOjE3MjkzNTE2NzQsImV4cCI6MTczMDU2MTI3NCwibmJmIjoxNzI5MzUxNjc0LCJqdGkiOiJ2NjBwb2VVT2FJY1Rwbmk4Iiwic3ViIjo1NzMwMywicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.EOsRVyeE9uaqzyhf0kiExO1UTg_VOK0P0UAMRYYO8lM
-
-###
-
-###https://smoothcomp.com/sv/event/19595/overlay/16714
-###https://smoothcomp.com/sv/event/19595/overlay/16715
-###https://demo.smoothcomp.com/sv/event/{{event}}/overlay/16714
-
-###
+@bearer = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RlbW8uc21vb3RoY29tcC5jb20vc3Yvc2NvcmVib2FyZC82NjYwNDUiLCJpYXQiOjE3MzAxMzc2MTMsImV4cCI6MTczMTM0NzIxMywibmJmIjoxNzMwMTM3NjEzLCJqdGkiOiJIZWdhZGVDa3JDWG5hZlpmIiwic3ViIjo1NzMwMywicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.411MznM--SLyqGiGrW8jd62gSo73gatQurMDUs0tJb4
 
 GET https://{{host}}/sv/event/{{event}}/schedule/new/mat/{{mat}}/matches.json
 Content-Type: application/json
 Authorization: Bearer {{bearer}}
 
-###
+### kenny@westgrund.se eFZr
+
+GET https://demo.smoothcomp.com/sv/event/3798/schedule/new/mat/56501/matches.json
+Content-Type: application/json
+Cookie: sc_demo_session=eyJpdiI6IlN0bTlKSDhhOWlyWC93anZ0OE15SEE9PSIsInZhbHVlIjoiU2JQNjB3MEJhanlyQ0RCQ2FZTlpXTHZnVEFaR1N3REQyRE9oaWl4cEpOWnJOME93U1VBZlFjaVkwclRaSFg4eHlXYmNjaHMyL0J4VkRHbnM2ZExwa2oyUEtuRjliSHFSS3lid2cxV0lCSTE0ZGxvblQ4bzJDUG03cDY5Ri9vZmEiLCJtYWMiOiI1NTVlY2FiMmE4NDNhZmQ0Zjk0NDMyYTM3NDU2ZjIxOTI2ODI5OGU0NjI1ODMwZjBhODRiZjhkOWUwNDc4OWM1IiwidGFnIjoiIn0%3D
+
+### Authorization: Bearer {{bearer}}
+### https://smoothcomp.com/sv/event/19595/overlay/16714
+### https://smoothcomp.com/sv/event/19595/overlay/16715
+### https://demo.smoothcomp.com/sv/event/{{event}}/overlay/16714
+### https://demo.smoothcomp.com/sv/event/3798/schedule/new/mat/56500/matches.json
 
 GET https://{{host}}/sv/event/3798/schedule/new/mats.json/7529
 Content-Type: application/json
 Authorization: Bearer {{bearer}}
 
 
-###GET https://{{host}}/sv/getBracketMatchData/{{matchId}}
+### GET https://{{host}}/sv/getBracketMatchData/{{matchId}}
+
 GET https://{{host}}/sv/getBracketMatchData/663848
 Content-Type: application/json
 Authorization: Bearer {{bearer}}

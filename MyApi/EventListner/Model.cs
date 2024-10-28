@@ -1,4 +1,4 @@
-namespace EventListner;
+namespace SmoothStrike.EventListner;
 
 public class MatchEvent
 {
@@ -92,7 +92,6 @@ public class RoundsConfig
     public int GoldenPointTimeMinutes { get; set; }
     public int GoldenPointTimeSeconds { get; set; }
 }
-
 
 
 public class MatchResult

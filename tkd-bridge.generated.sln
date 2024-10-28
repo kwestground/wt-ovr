@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApi", "MyApi\MyApi.csproj", "{DA0B86AE-947E-4F1B-9115-B3FE59E29980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmoothStrike", "MyApi\SmoothStrike.csproj", "{DA0B86AE-947E-4F1B-9115-B3FE59E29980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmootStrike.Tests", "SmootStrike.Tests\SmootStrike.Tests.csproj", "{F41E5F9A-7BC6-4F56-A5D4-C9C35283F646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DA0B86AE-947E-4F1B-9115-B3FE59E29980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA0B86AE-947E-4F1B-9115-B3FE59E29980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA0B86AE-947E-4F1B-9115-B3FE59E29980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41E5F9A-7BC6-4F56-A5D4-C9C35283F646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41E5F9A-7BC6-4F56-A5D4-C9C35283F646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41E5F9A-7BC6-4F56-A5D4-C9C35283F646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41E5F9A-7BC6-4F56-A5D4-C9C35283F646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
