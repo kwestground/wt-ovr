@@ -285,15 +285,26 @@
 
 <script>
         var hideScoreBoardFlag = true;
+        
+        // set mat from querystring
+        const urlParams = new URLSearchParams(window.location.search);
+        const mat = urlParams.get('mat');
+        const matGroup = 'mat-' + mat;
+
+        if (mat == null) {
+            alert("No mat set in querystring (?mat=N)");
+        }
 
         const connection = new signalR.HubConnectionBuilder()
-            .withUrl("/hub")
+            .withUrl("/hub")            
             .build();
 
         async function startConnection() {
             try {
-                await connection.start();
-                console.log("Connected to SignalR Hub");
+                await connection.start()
+                    .then(() => connection.invoke("JoinGroup", matGroup));
+
+                console.log("Connected to SignalR Hub in group ", matGroup);
             } catch (err) {
                 console.error("Error connecting to SignalR Hub", err);
                 setTimeout(startConnection, 5000); // Retry connection

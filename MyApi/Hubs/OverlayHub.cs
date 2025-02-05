@@ -6,4 +6,9 @@ public class OverlayHub : Hub
     {
         await Clients.All.SendAsync("ReceiveMessage", user, message);
     }
+    
+    public Task JoinGroup(string groupName)
+    {
+        return Groups.AddToGroupAsync(Context.ConnectionId, groupName);
+    }
 }
