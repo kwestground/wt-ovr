@@ -31,6 +31,12 @@ public static class Endpoints
 
     public static void MapEventListner(this IEndpointRouteBuilder endpoints)
     {
+        endpoints.MapGet("/tks/overlay", async context =>
+        {
+            var file = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot", "Overlay.html");
+            await context.Response.SendFileAsync(file);
+        });
+
         endpoints.MapGet(Ping, () => "Hell yeah, it's working!");
 
         endpoints.MapGet(GetMatchPath, ([FromRoute] string matchCode,[FromRoute] string matchNumber) =>
