@@ -290,9 +290,18 @@
         const urlParams = new URLSearchParams(window.location.search);
         const mat = urlParams.get('mat');
         const matGroup = 'mat-' + mat;
+        let intervalId = null;
+        let hideTimer;
+
+        function setHideScoreboardTimer() {
+            clearTimeout(hideTimer);
+            hideTimer = setTimeout(hideScoreBoard, 2 * 60 * 1000); // 2 minuter
+        }
+
+        let match = null;
 
         if (mat == null) {
-            alert("No mat set in querystring (?mat=N)");
+            alert("No mat set in querystring (?mat=MATCODE)");
         }
 
         const connection = new signalR.HubConnectionBuilder()
@@ -310,16 +319,29 @@
                 setTimeout(startConnection, 5000); // Retry connection
             }
         }
-        
-        /*
-        const originalOnMethod = connection.on.bind(connection);
-        connection.on = (methodName, newMethod) => {
-            originalOnMethod(methodName, (...args) => {
-                // console.log(`Message Type: ${methodName}`, ...args); // Log the message type and content
-                newMethod(...args);
-            });
-        };
-        */
+
+        function fetchMatch(matchNumber) {
+            fetch(`/events-listener/match/${matchNumber}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Misslyckades med att hämta match");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    match = data;
+                    console.log("Match hämtad från API:", match);
+                    
+                    // set same data as new match configured
+                    document.getElementById("blueName").textContent = match.blueAthlete.scoreboardName;
+                    document.getElementById("redName").textContent = match.redAthlete.scoreboardName;
+                    document.getElementById("category").textContent = match.category.subCategory + " " + match.category.name + " - " + match.phase;
+                })
+                .catch(error => {
+                    console.error("Fel vid hämtning av match:", error);
+                });
+        }
+
         connection.on("new-match-configured", (user, message) => {
             showScoreBoard();
             console.log("new-match-configured", message);
@@ -345,7 +367,11 @@
         connection.on("new-match-event", (user, message) => {
             hideScoreBoardFlag = false;
             console.log("new-match-event", message.eventType);
-            
+
+            if (!match) {
+                match = fetchMatch(message.matchNumber);
+            }
+
             showScoreBoard();
             updateScoreBoard(message);
 
@@ -441,6 +467,13 @@
 
             }
 
+            if (message.eventType === "TIMEOUT" || message.eventType === "DOCTOR" || message.eventType === "KYESHI_CHANGE" 
+                || message.eventType === "RESUME" || message.eventType === "MOVE_TO_NEXT_ROUND" 
+                
+                || message.eventType === "DOCTOR_QUIT") {
+                if (intervalId) clearInterval(intervalId);
+            }
+
 
 
         });
@@ -470,6 +503,8 @@
         function showScoreBoard() {
             document.getElementById("scoreboard").classList.remove("hidden");
             document.getElementById("scoreboard").classList.add("show");
+
+            setHideScoreboardTimer();
         }
 
         function hideScoreBoard() {
@@ -512,9 +547,55 @@
             
             hideAlert();
             
-            const [minutesAndSeconds] = message.roundTimestampStr.split('.');
-            document.getElementById("time").textContent = minutesAndSeconds;
+            //const [minutesAndSeconds] = message.roundTimestampStr.split('.');
+            //document.getElementById("time").textContent = minutesAndSeconds;
+
+
+            // "roundTimestampStr": "01:52.776",
+
+            const [minutesAndSeconds, thousands] = message.roundTimestampStr.split('.');
+            let [minutes, seconds] = minutesAndSeconds.split(':').map(Number);
+
+            lastTimestamp = minutesAndSeconds;
+            lastUpdateTime = Date.now();
+
+            if (minutes === 0 && seconds < 10) {
+
+                if (message.eventType === "ROUNDCOUNTDOWN_CHANGE" || message.eventType === "RESUME") {
+                    startHundredthsEmulation();
+                } else {
+                    clearInterval(intervalId); // Stoppa om det inte behövs
+
+                    let hundredths = Number(String(thousands).slice(0, -1));
+                    document.getElementById("time").textContent = minutesAndSeconds + "." + hundredths;
+                }
+            } else {
+                clearInterval(intervalId); // Stoppa om det inte behövs
+                document.getElementById("time").textContent = minutesAndSeconds;
+            }
         }
+
+        function startHundredthsEmulation() {
+            if (intervalId) clearInterval(intervalId); // Rensa eventuell tidigare intervall
+
+            intervalId = setInterval(() => {
+                if (lastTimestamp && lastUpdateTime) {
+                    const elapsed = ((Date.now() - lastUpdateTime) / 1000) -1 ; // Sekunder sedan senaste uppdatering
+                    let [minutes, seconds] = lastTimestamp.split(':').map(Number);
+
+                    let remainingSeconds = seconds - elapsed; // Räkna ner sekunder
+
+                    if (remainingSeconds < 0) {
+                        remainingSeconds = 0; // Förhindra negativ tid
+                        clearInterval(intervalId);
+                    }
+
+                    document.getElementById("time").textContent = 
+                        `${String(minutes).padStart(2, '0')}:${remainingSeconds.toFixed(2).padStart(5, '0')}`;
+                }
+            }, 10); // Uppdatera var 10:e millisekund för att få mjuk räknare
+        }
+
 
         function hideTime() {
             document.getElementById("time").textContent = "";

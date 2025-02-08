@@ -5,9 +5,9 @@ namespace SmoothStrike.EventListner;
 
 public static class Endpoints
 {
-    public const string NewMatchConfigured = "/events-listener/new-match-configured";
-    public const string NewMatchEvent = "/events-listener/new-match-event";
-    public const string MatchResult = "/events-listener/match-result";
+    public const string NewMatchConfigured = "/{matchCode}/events-listener/new-match-configured";
+    public const string NewMatchEvent = "/{matchCode}/events-listener/new-match-event";
+    public const string MatchResult = "/{matchCode}/events-listener/match-result";
 
     private static MemoryCache _cache = new MemoryCache(new MemoryCacheOptions());
 
@@ -27,29 +27,39 @@ public static class Endpoints
 
     public static void MapEventListner(this IEndpointRouteBuilder endpoints)
     {
-        endpoints.MapPost(NewMatchConfigured, async (IHubContext<OverlayHub> hubContext, [FromBody] NewMatch input) =>
+        endpoints.MapGet("/events-listener/match/{matchNumber}", (string matchNumber) =>
+        {
+            var match = GetMatch(matchNumber);
+            if (match == null)
+            {
+                return Results.NotFound();
+            }
+            return Results.Ok(match);
+        });
+
+        endpoints.MapPost(NewMatchConfigured, async (IHubContext<OverlayHub> hubContext, [FromRoute] string matchCode, [FromBody] NewMatch input) =>
         {
             //await hubContext.Clients.All.SendAsync("new-match-configured", "Overlay", input);
-            await hubContext.Clients.Groups($"mat-{input.Mat}").SendAsync("new-match-configured", "Overlay", input);
+            await hubContext.Clients.Groups($"mat-{matchCode}").SendAsync("new-match-configured", "Overlay", input);
 
             SetMatch(input);
             return Results.Ok();
         });
 
-        endpoints.MapPost(NewMatchEvent, async (IHubContext<OverlayHub> hubContext, [FromBody] MatchEvent input) =>
+        endpoints.MapPost(NewMatchEvent, async (IHubContext<OverlayHub> hubContext, [FromRoute] string matchCode, [FromBody] MatchEvent input) =>
         {
             var match = GetMatch(input.MatchNumber);
 
             //await hubContext.Clients.All.SendAsync("new-match-event", "Overlay", input);
-            await hubContext.Clients.Groups($"mat-{match.Mat}").SendAsync("new-match-event", "Overlay", input);
+            await hubContext.Clients.Groups($"mat-{matchCode}").SendAsync("new-match-event", "Overlay", input);
             return Results.Ok();
         });
 
-        endpoints.MapPost(MatchResult, async (IHubContext<OverlayHub> hubContext, [FromBody] MatchResult input) =>
+        endpoints.MapPost(MatchResult, async (IHubContext<OverlayHub> hubContext, [FromRoute] string matchCode, [FromBody] MatchResult input) =>
         {
             var match = GetMatch(input.MatchNumber);
             //await hubContext.Clients.All.SendAsync("match-result", "Overlay", input);
-            await hubContext.Clients.Groups($"mat-{match.Mat}").SendAsync("match-result", "Overlay", input);
+            await hubContext.Clients.Groups($"mat-{matchCode}").SendAsync("match-result", "Overlay", input);
             return Results.Ok();
         });
     }

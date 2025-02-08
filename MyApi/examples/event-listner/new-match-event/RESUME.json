@@ -1,0 +1,22 @@
+{
+    "matchNumber": "201",
+    "matchCategoryName": "M -74KG",
+    "matchCategoryGender": "MALE",
+    "matchSubCategoryName": "UNDER 21",
+    "roundNumber": 1,
+    "roundNumberStr": "1",
+    "tkStrikeSystemTimestamp": 1739039749056,
+    "tkStrikeSystemTimestampStr": "08\/02\/2025 19:35:49:056",
+    "roundTimestamp": 1738785600429,
+    "roundTimestampStr": "00:00.429",
+    "eventType": "RESUME",
+    "eventAddPoints": false,
+    "eventRemovePoints": false,
+    "bluePoints": 0,
+    "bluePenalties": 0,
+    "blueRoundWins": 0,
+    "redPoints": 0,
+    "redPenalties": 0,
+    "redRoundWins": 0,
+    "hitlevel": 0
+}
