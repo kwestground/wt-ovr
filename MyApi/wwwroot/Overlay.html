@@ -372,7 +372,7 @@
 
         connection.on("new-match-event", (user, message) => {
             hideScoreBoardFlag = false;
-            console.log("new-match-event", message.eventType);
+            console.log("new-match-event", message.eventType, message);
 
             if (!match) {
                 match = fetchMatch(message.matchNumber);
@@ -387,7 +387,7 @@
                     break;
                 case "END_ROUND":
                     // hideTime()
-                    showAlert('Rest time');
+                    startRestTime(message);
                     break;
 
                     case "BLUE_VIDEO_REQUEST":
@@ -483,6 +483,33 @@
 
 
         });
+
+        function startRestTime(message) {
+            if (message.blueRoundWins >= 2 || message.redRoundWins >= 2) {
+                return;
+            }
+
+            showAlert('Rest time');
+
+            const restTime = match.roundsConfig.restTimeMinutes * 60 + match.roundsConfig.restTimeSeconds;
+            let remainingSeconds = restTime;
+
+            intervalId = setInterval(() => {
+                remainingSeconds -= 1;
+
+                if (remainingSeconds < 0) {
+                    remainingSeconds = 0; // Förhindra negativ tid
+                    clearInterval(intervalId);
+
+                    document.getElementById("time").textContent = "0:00";
+                }
+
+                const minutes = Math.floor(remainingSeconds / 60);
+                const seconds = remainingSeconds % 60;
+
+                document.getElementById("time").textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            }, 1000);
+        }
 
         function addBlueAction(message) {
             const action = message.eventType;
