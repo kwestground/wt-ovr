@@ -707,7 +707,7 @@
                     clearInterval(intervalId); // Stoppa om det inte behövs
 
                     let hundredths = Number(String(thousands).slice(0, -1));
-                    document.getElementById("time").textContent = minutesAndSeconds + "." + hundredths;
+                    document.getElementById("time").textContent = seconds + "." + hundredths;
                 }
             } else {
                 clearInterval(intervalId); // Stoppa om det inte behövs
@@ -731,7 +731,7 @@
                     }
 
                     document.getElementById("time").textContent = 
-                        `${String(minutes).padStart(2, '0')}:${remainingSeconds.toFixed(2).padStart(5, '0')}`;
+                        `${remainingSeconds.toFixed(2).padStart(4, '0')}`;
                 }
             }, 10); // Uppdatera var 10:e millisekund för att få mjuk räknare
         }
