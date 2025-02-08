@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             font-size:32px;
             margin: 0;
-            background-image: url('match-bg.png');
+            
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -292,6 +292,12 @@
         const matGroup = 'mat-' + mat;
         let intervalId = null;
         let hideTimer;
+
+        const debug = urlParams.get('debug');
+        if (debug) {
+            // set background-image: url('match-bg.png');
+            document.body.style.backgroundImage = "url('match-bg.png')";
+        }
 
         function setHideScoreboardTimer() {
             clearTimeout(hideTimer);
