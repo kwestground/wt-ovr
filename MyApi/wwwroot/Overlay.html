@@ -319,7 +319,7 @@
                 await connection.start()
                     .then(() => connection.invoke("JoinGroup", matGroup));
 
-                console.log("Connected to SignalR Hub in group ", matGroup);
+                console.log("Connected to SignalR Hub in group", matGroup);
             } catch (err) {
                 console.error("Error connecting to SignalR Hub", err);
                 setTimeout(startConnection, 5000); // Retry connection
@@ -327,7 +327,7 @@
         }
 
         function fetchMatch(matchNumber) {
-            fetch(`/events-listener/match/${matchNumber}`)
+            fetch(`/tks/${mat}/events-listener/match/${matchNumber}`)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error("Misslyckades med att hämta match");

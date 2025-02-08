@@ -52,7 +52,6 @@ app.MapGet("/matches-test", () => {
 });
 
 
-app.MapGet("/events-listener/ping", () => "Hell yeah, it's working!");
 
 // /events-listener/new-match-configured
 // /events-listener/new-match-event
