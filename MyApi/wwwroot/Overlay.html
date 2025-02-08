@@ -193,13 +193,89 @@
         display: block;
     }
 
-    #blueActions {
-        color:blue;
+    .action-list {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-50%);
+        color: white;
+    }
+    .action-list ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
     }
 
-    #redActions {
+    .action-list li {
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
+    }
+        
+    #blueAction {
+        left: 10px;
+        color:blue;
+    }
+    #redAction {
+        right: 10px;
         color:red;
     }
+
+    .RED_PUNCH_POINT, .BLUE_PUNCH_POINT {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/punch.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .RED_ADD_GAME_JEON, .BLUE_ADD_GAME_JEON {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/reject.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .RED_ADD_NEAR_MISS_HIT, .BLUE_ADD_NEAR_MISS_HIT {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/near-miss-hit.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .RED_BODY_POINT, .BLUE_BODY_POINT {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/body-point.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .RED_BODY_TECH_POINT, .BLUE_BODY_TECH_POINT {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/body-tech-point.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .RED_HEAD_POINT, .BLUE_HEAD_POINT {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/head-point.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .RED_HEAD_TECH_POINT, .BLUE_HEAD_TECH_POINT {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url('/icons/head-tech-point.png') no-repeat center;
+        background-size: contain;
+    }
+
+
+    
 
     @keyframes slideUp {
         from {
@@ -222,16 +298,35 @@
 </head>
 <body>
 
-    <div id="blueAction">
-        <ul>
+    <div id="blueAction" class="action-list">
+        <ul><!--
+            <li><span class="BLUE_PUNCH_POINT"></li>
+                <li><span class="BLUE_ADD_GAME_JEON"></li>
+            <li><span class="BLUE_ADD_NEAR_MISS_HIT"></li>
+            <li><span class="BLUE_BODY_POINT"></li>
+            <li><span class="BLUE_BODY_TECH_POINT"></li>
+            <li><span class="BLUE_HEAD_POINT"></li>
+            <li><span class="BLUE_HEAD_TECH_POINT"></li>
+                
+-->
         </ul>
     </div>
-    <div id="redAction">
+    <div id="redAction" class="action-list">
         <ul>
+<!--
+            <li><span class="RED_PUNCH_POINT"></li>
+            <li><span class="RED_ADD_GAME_JEON"></li>
+            <li><span class="RED_ADD_NEAR_MISS_HIT"></li>
+            <li><span class="RED_BODY_POINT"></li>
+            <li><span class="RED_BODY_TECH_POINT"></li>
+            <li><span class="RED_HEAD_POINT"></li>
+            <li><span class="RED_HEAD_TECH_POINT"></li>
+        
+-->
         </ul>
     </div>
 
-<div id="scoreboard" class="hidden">
+<div id="scoreboard" class="hidden-not">
 
     <div>
         <div id="top">
@@ -296,7 +391,7 @@
         const debug = urlParams.get('debug');
         if (debug) {
             // set background-image: url('match-bg.png');
-            document.body.style.backgroundImage = "url('match-bg.png')";
+            document.body.style.backgroundImage = "url('/match-bg.png')";
         }
 
         function setHideScoreboardTimer() {
@@ -515,16 +610,28 @@
             const action = message.eventType;
             const actionList = document.querySelector("#blueAction ul");
             const actionItem = document.createElement("li");
-            actionItem.textContent = action;
+            const icon = document.createElement('span');
+            icon.className = action;
+            actionItem.appendChild(icon);
             actionList.appendChild(actionItem);
+
+            setTimeout(() => {
+                actionItem.remove();
+            }, 10000);
         }
 
         function addRedAction(message) {
             const action = message.eventType;
             const actionList = document.querySelector("#redAction ul");
             const actionItem = document.createElement("li");
-            actionItem.textContent = action;
+            const icon = document.createElement('span');
+            icon.className = action;
+            actionItem.appendChild(icon);
             actionList.appendChild(actionItem);
+
+            setTimeout(() => {
+                actionItem.remove();
+            }, 10000);
         }
 
         function sendMessage() {
